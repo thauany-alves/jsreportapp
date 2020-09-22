@@ -1,0 +1,177 @@
+2020-09-19T16:56:41.030Z - error: Rendering request 1 finished with error in 6149 ms
+2020-09-19T16:56:41.087Z - error: Error when processing render request 1 Failed to launch chrome!
+[0919/135640.045:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FF89A301252+16183762]
+	ovly_debug_event [0x00007FF89A300832+16181170]
+	ovly_debug_event [0x00007FF89A313383+16257795]
+	ovly_debug_event [0x00007FF89A303386+16192262]
+	ovly_debug_event [0x00007FF899E54B2E+11283118]
+	ovly_debug_event [0x00007FF89A27DB58+15645400]
+	ovly_debug_event [0x00007FF89A27DACD+15645261]
+	ovly_debug_event [0x00007FF89A2A8F28+15822504]
+	ovly_debug_event [0x00007FF89A27D35E+15643358]
+	ovly_debug_event [0x00007FF89A2A83E3+15819619]
+	ovly_debug_event [0x00007FF89A2A82BB+15819323]
+	ovly_debug_event [0x00007FF89A2A80F2+15818866]
+	ChromeMain [0x00007FF8993911B6+286]
+	Ordinal0 [0x00007FF7F109275F+10079]
+	Ordinal0 [0x00007FF7F109182D+6189]
+	GetHandleVerifier [0x00007FF7F119B7C2+697538]
+	BaseThreadInitThunk [0x00007FF91A5B6FD4+20]
+	RtlUserThreadStart [0x00007FF91C2DCEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+ Error: Failed to launch chrome!
+[0919/135640.045:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FF89A301252+16183762]
+	ovly_debug_event [0x00007FF89A300832+16181170]
+	ovly_debug_event [0x00007FF89A313383+16257795]
+	ovly_debug_event [0x00007FF89A303386+16192262]
+	ovly_debug_event [0x00007FF899E54B2E+11283118]
+	ovly_debug_event [0x00007FF89A27DB58+15645400]
+	ovly_debug_event [0x00007FF89A27DACD+15645261]
+	ovly_debug_event [0x00007FF89A2A8F28+15822504]
+	ovly_debug_event [0x00007FF89A27D35E+15643358]
+	ovly_debug_event [0x00007FF89A2A83E3+15819619]
+	ovly_debug_event [0x00007FF89A2A82BB+15819323]
+	ovly_debug_event [0x00007FF89A2A80F2+15818866]
+	ChromeMain [0x00007FF8993911B6+286]
+	Ordinal0 [0x00007FF7F109275F+10079]
+	Ordinal0 [0x00007FF7F109182D+6189]
+	GetHandleVerifier [0x00007FF7F119B7C2+697538]
+	BaseThreadInitThunk [0x00007FF91A5B6FD4+20]
+	RtlUserThreadStart [0x00007FF91C2DCEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+
+    at onClose (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:348:14)
+    at ChildProcess.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:338:60)
+    at ChildProcess.emit (events.js:327:22)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+2020-09-19T16:56:41.089Z - error: Error during processing request at http://localhost:8001/api/report/invoice-main
+2020-09-21T01:46:46.595Z - error: Error when processing OData GET: /odata Error: Not Found
+    at Router.router.dispatch (D:\PROJETOS\jsreportapp\node_modules\simple-odata-server\lib\router.js:73:17)
+    at ODataServer.handle (D:\PROJETOS\jsreportapp\node_modules\simple-odata-server\lib\odataServer.js:64:15)
+    at D:\PROJETOS\jsreportapp\node_modules\jsreport-express\lib\routes.js:24:47
+    at Layer.handle [as handle_request] (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\PROJETOS\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at D:\PROJETOS\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (D:\PROJETOS\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at D:\PROJETOS\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (D:\PROJETOS\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at D:\PROJETOS\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (D:\PROJETOS\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (D:\PROJETOS\jsreportapp\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\PROJETOS\jsreportapp\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (D:\PROJETOS\jsreportapp\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\PROJETOS\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+2020-09-21T21:19:18.887Z - error: Rendering request 5 finished with error in 5409 ms
+2020-09-21T21:19:18.940Z - error: Error when processing render request 5 Failed to launch chrome!
+[0921/181918.267:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFD0C431252+16183762]
+	ovly_debug_event [0x00007FFD0C430832+16181170]
+	ovly_debug_event [0x00007FFD0C443383+16257795]
+	ovly_debug_event [0x00007FFD0C433386+16192262]
+	ovly_debug_event [0x00007FFD0BF84B2E+11283118]
+	ovly_debug_event [0x00007FFD0C3ADB58+15645400]
+	ovly_debug_event [0x00007FFD0C3ADACD+15645261]
+	ovly_debug_event [0x00007FFD0C3D8F28+15822504]
+	ovly_debug_event [0x00007FFD0C3AD35E+15643358]
+	ovly_debug_event [0x00007FFD0C3D83E3+15819619]
+	ovly_debug_event [0x00007FFD0C3D82BB+15819323]
+	ovly_debug_event [0x00007FFD0C3D80F2+15818866]
+	ChromeMain [0x00007FFD0B4C11B6+286]
+	Ordinal0 [0x00007FF63268275F+10079]
+	Ordinal0 [0x00007FF63268182D+6189]
+	GetHandleVerifier [0x00007FF63278B7C2+697538]
+	BaseThreadInitThunk [0x00007FFD8EA96FD4+20]
+	RtlUserThreadStart [0x00007FFD8ED7CEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+ Error: Failed to launch chrome!
+[0921/181918.267:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFD0C431252+16183762]
+	ovly_debug_event [0x00007FFD0C430832+16181170]
+	ovly_debug_event [0x00007FFD0C443383+16257795]
+	ovly_debug_event [0x00007FFD0C433386+16192262]
+	ovly_debug_event [0x00007FFD0BF84B2E+11283118]
+	ovly_debug_event [0x00007FFD0C3ADB58+15645400]
+	ovly_debug_event [0x00007FFD0C3ADACD+15645261]
+	ovly_debug_event [0x00007FFD0C3D8F28+15822504]
+	ovly_debug_event [0x00007FFD0C3AD35E+15643358]
+	ovly_debug_event [0x00007FFD0C3D83E3+15819619]
+	ovly_debug_event [0x00007FFD0C3D82BB+15819323]
+	ovly_debug_event [0x00007FFD0C3D80F2+15818866]
+	ChromeMain [0x00007FFD0B4C11B6+286]
+	Ordinal0 [0x00007FF63268275F+10079]
+	Ordinal0 [0x00007FF63268182D+6189]
+	GetHandleVerifier [0x00007FF63278B7C2+697538]
+	BaseThreadInitThunk [0x00007FFD8EA96FD4+20]
+	RtlUserThreadStart [0x00007FFD8ED7CEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+
+    at onClose (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:348:14)
+    at ChildProcess.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:338:60)
+    at ChildProcess.emit (events.js:327:22)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+2020-09-21T21:19:18.942Z - error: Error during processing request at http://localhost:8001/api/report/invoice-main
+2020-09-21T21:26:55.165Z - error: Error during processing request at http://localhost:8001/api/report, details: Could not parse report template, aren't you missing content type?, stack: undefined
+2020-09-21T21:26:58.222Z - error: Error during processing request at http://localhost:8001/api/report, details: Could not parse report template, aren't you missing content type?, stack: undefined
+2020-09-21T21:27:12.056Z - error: Error during processing request at http://localhost:8001/api/report, details: Could not parse report template, aren't you missing content type?, stack: undefined
+2020-09-21T21:27:14.132Z - error: Error during processing request at http://localhost:8001/api/report, details: Could not parse report template, aren't you missing content type?, stack: undefined
+2020-09-22T03:05:49.051Z - error: Rendering request 55 finished with error in 36 ms
+2020-09-22T03:05:49.053Z - error: Error when processing render request 55 Asset ./assets/report-ui-logo-2x.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\report-ui-logo-2x.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\report-ui-logo-2x.png' Error: Asset ./assets/report-ui-logo-2x.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\report-ui-logo-2x.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\report-ui-logo-2x.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-22T03:05:49.071Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-22T03:06:14.312Z - error: Rendering request 56 finished with error in 28 ms
+2020-09-22T03:06:14.326Z - error: Error when processing render request 56 Asset encoded as dataURI needs to have file extension jpeg|jpg|gif|png|svg|woff|tff|otf|woff2|eot Error: Asset encoded as dataURI needs to have file extension jpeg|jpg|gif|png|svg|woff|tff|otf|woff2|eot
+    at convert (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:55:15)
+    at D:\PROJETOS\jsreportapp\node_modules\async-replace\async-replace.js:63:26
+    at D:\PROJETOS\jsreportapp\node_modules\async\lib\async.js:718:13
+    at async.forEachOf.async.eachOf (D:\PROJETOS\jsreportapp\node_modules\async\lib\async.js:233:13)
+    at _parallel (D:\PROJETOS\jsreportapp\node_modules\async\lib\async.js:717:9)
+    at Object.async.parallel (D:\PROJETOS\jsreportapp\node_modules\async\lib\async.js:731:9)
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\async-replace\async-replace.js:71:11)
+    at tryCatcher (D:\PROJETOS\jsreportapp\node_modules\bluebird\js\release\util.js:16:23)
+    at ret (eval at makeNodePromisifiedEval (D:\PROJETOS\jsreportapp\node_modules\bluebird\js\release\promisify.js:1:1), <anonymous>:11:39)
+    at evaluateAssets (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:67:24)
+    at Object.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:391:34)
+2020-09-22T03:06:14.327Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main

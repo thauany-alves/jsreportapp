@@ -1,0 +1,14 @@
+{
+    "name": "Invoice",
+    "creationDate": {
+        "$$date": 1600654010136
+    },
+    "modificationDate": {
+        "$$date": 1600654010136
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "shortid": "dIYUcAf",
+    "_id": "Oq07pRuYHtYpXhAT",
+    "$entitySet": "folders"
+}
