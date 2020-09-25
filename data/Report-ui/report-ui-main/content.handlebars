@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <style>
-            {#asset report-ui-styles.css @encoding=utf8}
-        </style>
-    </head>
 
-    <body>
-        <section id="reporting-page-1">
-            <header id="reporting-section-1">
-                <img class="reporting-section-header-logo_first-page" src="{#asset ./assets/img-your-logo-here-2x.png @encoding=dataURI}" 
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <style>
+        {#asset report-ui-styles.css @encoding=utf8}
+    </style>
+</head>
+
+<body>
+    <section id="report-page-1" class="reporting-page">
+        <header id="reporting-section-1">
+            <img class="reporting-section-header-logo_first-page" src="{#asset ./assets/img-your-logo-here-2x.png @encoding=dataURI}" 
                     style="width:100%; max-width:300px;" 
                     alt="Logo"
                 />
@@ -23,41 +24,40 @@
                     <span class="reporting-section-header-dropline-client_first-page">Client Name</span> 
                     <span class="reporting-section-header-dropline-period_first-page">August/2020</span>
                 </div>
-            </header>
+        </header>
 
-            <section>
-                <article class="reporting-section-article">
-                    <div class="reporting-section-article-image">
-                        <img src="{#asset ./assets/person-office.svg @encoding=dataURI}" alt="person office">
-                    </div>
-                    <div class="reporting-section-article-content">
-                        <section>
-                            <div class="reporting-section-article-header">
-                                <h1>The importance of report</h1>
-                            </div>
-                            <div class="reporting-section-article-text">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit, Illum
-                                    dolor explicabo amet ipsam, impedit, accusamus officiis unde
-                                    voluptates culpa odio, odit qui minima minus! Dolorem quaerat
-                                    repellat odit labore optio.
-                                </p>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="reporting-section-article-header">
-                                <h1>How to use the content?</h1>
-                            </div>
-                            <div class="reporting-section-article-text">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit, Illum
-                                    dolor explicabo amet ipsam, impedit, accusamus officiis unde
-                                    voluptates culpa odio, odit qui minima minus! Dolorem quaerat
-                                    repellat odit labore optio.
-                                </p>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-            </section>
+        <section  class="reporting-page-content_page_0">
+            <article class="reporting-section-article">
+                <div class="reporting-section-article-image">
+                    <img src="{#asset ./assets/person-office.svg @encoding=dataURI}" alt="person office">
+                </div>
+                <div class="reporting-section-article-content">
+                    <article>
+                        <div class="reporting-section-article-header">
+                            <h5>The importance of report</h5>
+                        </div>
+                        <div class="reporting-section-article-text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit, Illum
+                                dolor explicabo amet ipsam, impedit, accusamus officiis unde
+                                voluptates culpa odio, odit qui minima minus! Dolorem quaerat
+                                repellat odit labore optio.
+                            </p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="reporting-section-article-header">
+                            <h5>How to use the content?</h5>
+                        </div>
+                        <div class="reporting-section-article-text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit, Illum
+                                dolor explicabo amet ipsam, impedit, accusamus officiis unde
+                                voluptates culpa odio, odit qui minima minus! Dolorem quaerat
+                                repellat odit labore optio.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </article>
 
             <footer class="reporting-footer">
                 <span>Client Name</span>
@@ -66,21 +66,377 @@
             </footer>
         </section>
 
-        <section id="reporting-page-2">
-            <header class="reporting-header-page">
-                <div class="reporting-header-number-topic">
-                    <span class="reporting-header-number-topic-value">1</span>
-                </div>
-                <div class="">
-                    <div>
-                        <h1>Monthly Dark Web Activity Summary</h1>
-                    </div>
-                    <div>
-                        <img src="" alt="company logo">
-                    </div>
-                </div>
-            </header>
+        
+    </section>
 
-        </section>
-    </body> 
+    <section id="report-page-2" class="reporting-page page-break">
+        <div class="reporting-page-content">
+            <header class="reporting-page-header">
+                <div class="reporting-page-header-content">
+                    <div class="reporting-page-header-number-circle">
+                        <span class="reporting-page-header-number-circle_value">1</span>
+                    </div>
+    
+                    <h1 class="reporting-page-header-title">
+                        Monthly Dark Web Activity Summary
+                    </h1>
+                </div>
+    
+                <img class="reporting-page-header-logo" src="{#asset ./assets/img-your-logo-here.png @encoding=dataURI}" alt="Logo" />
+            </header>
+    
+            <main>
+                <article class="report-page-article">
+                    <header class="report-page-article-header">
+                        <h2 class="report-page-article-title">Dark Web Overview</h2>
+                        <h3 class="report-page-article-subtitle">Month/Year</h3>
+                    </header>
+    
+                    <p class="report-page-article-content">
+                        Lorem ipsum dolor sit amet, consec magna aliqua. Ut enim ad min
+                        exercitati Duis aute irure dolor in reprehenderit in Lorem ipsum
+                        dolor
+                    </p>
+                </article>
+    
+                <div class="report-section-group-cards">
+                    <div class="report-section-group-cards-row">
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image" src="{#asset ./assets/img-exposed-passwords.svg @encoding=dataURI}"
+                                    alt="Exposed Passwords" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Exposed Passwords</span>
+                                </header>
+    
+                                <div class="report-card-content-info">
+                                    <div class="report-card-content-info-unit">
+                                        <span class="report-card-content-info-unit_value">125</span>
+                                        <span class="report-card-content-info-unit_label">Month/Year</span>
+                                    </div>
+                                    <div class="report-card-content-info-unit">
+                                        <span class="report-card-content-info-unit_value">300</span>
+                                        <span class="report-card-content-info-unit_label">Total-to-date</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image"
+                                    src="{#asset ./assets/img-compromised-email-credentials.svg @encoding=dataURI}"
+                                    alt="Compromised Email Credentials" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Compromised Email Credentials</span>
+                                </header>
+    
+                                <div class="report-card-content-info">
+                                    <div class="report-card-content-info-unit">
+                                        <span class="report-card-content-info-unit_value">125</span>
+                                        <span class="report-card-content-info-unit_label">Month/Year</span>
+                                    </div>
+                                    <div class="report-card-content-info-unit">
+                                        <span class="report-card-content-info-unit_value">300</span>
+                                        <span class="report-card-content-info-unit_label">Total-to-date</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="report-section-group-cards-row">
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image" src="{#asset ./assets/img-compromised-credentials.svg @encoding=dataURI}"
+                                    alt="Compromised Credentials" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Compromised Credentials</span>
+                                </header>
+    
+                                <div class="report-card-content-info">
+                                    <div class="report-card-content-info-unit">
+                                        <span class="report-card-content-info-unit_value">125</span>
+                                        <span class="report-card-content-info-unit_label">Month/Year</span>
+                                    </div>
+                                    <div class="report-card-content-info-unit">
+                                        <span class="report-card-content-info-unit_value">300</span>
+                                        <span class="report-card-content-info-unit_label">Total-to-date</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image" src="{#asset ./assets/img-unique-data-breaches.svg @encoding=dataURI}"
+                                    alt="Unique Data Breaches" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Unique Data Breaches</span>
+                                </header>
+    
+                                <div class="report-card-content-info">
+                                    <div class="report-card-content-info-unit">
+                                        <span class="report-card-content-info-unit_value">125</span>
+                                        <span class="report-card-content-info-unit_label">Month/Year</span>
+                                    </div>
+                                    <div class="report-card-content-info-unit">
+                                        <span class="report-card-content-info-unit_value">300</span>
+                                        <span class="report-card-content-info-unit_label">Total-to-date</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="report-page-article_1">
+                    <header class="report-page-article-header">
+                        <h2 class="report-page-article-title">Trend of Impact</h2>
+                        <h3 class="report-page-article-subtitle">6-Month</h3>
+                    </header>
+    
+                    <p class="report-page-article-content">
+                        Lorem ipsum dolor sit amet, consec magna aliqua. Ut enim ad min
+                        exercitati Duis aute irure dolor in reprehenderit in Lorem ipsum
+                        dolor
+                    </p>
+                </div>
+    
+                <img id="report-page-1-graphic" src="{#asset ./assets/img-page-1-graphic.png @encoding=dataURI}" alt="Graphic" />
+            </main>
+    
+            <footer class="reporting-footer">
+                <span>Client Name</span>
+                <span>Date</span>
+                <span>By: Partner Name</span>
+            </footer>
+        </div>
+    </section>
+
+    <section id="report-page-2" class="reporting-page page-break">
+        <div class="reporting-page-content">
+            <header class="reporting-page-header">
+                <div class="reporting-page-header-content">
+                    <div class="reporting-page-header-number-circle">
+                        <span class="reporting-page-header-number-circle_value">2</span>
+                    </div>
+    
+                    <div>
+                        <h1 class="reporting-page-header-title">
+                            Top Attacked Industries
+                        </h1>
+                        <h3 class="report-page-article-subtitle">Month/Year</h3>
+                    </div>
+                </div>
+    
+                <img class="reporting-page-header-logo" src="{#asset ./assets/img-your-logo-here.png @encoding=dataURI}" alt="Logo" />
+            </header>
+    
+            <main>
+                <div class="report-page-article_1">
+                    <p class="report-page-article-content">
+                        Lorem ipsum dolor sit amet, consec magna aliqua. Ut enim ad min
+                        exercitati Duis aute irure dolor in reprehenderit in Lorem ipsum
+                        dolor
+                    </p>
+                </div>
+    
+                <div class="report-section-group-cards">
+                    <div class="report-section-group-cards-row">
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image" src="{#asset ./assets/img-technology.svg @encoding=dataURI}"
+                                    alt="Technology" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Technology</span>
+                                </header>
+    
+                                <div class="report-card-content-info-unit">
+                                    <span class="report-card-content-info-unit_value">200</span>
+                                    <span class="report-card-content-info-unit_label">Breaches</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image" src="{#asset ./assets/img-social-networking.svg @encoding=dataURI}"
+                                    alt="Social Networking" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Social Networking</span>
+                                </header>
+    
+                                <div class="report-card-content-info-unit">
+                                    <span class="report-card-content-info-unit_value">200</span>
+                                    <span class="report-card-content-info-unit_label">Breaches</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="report-section-group-cards-row">
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image" src="{#asset ./assets/img-entertainment.svg @encoding=dataURI}"
+                                    alt="Entertainment" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Entertainment</span>
+                                </header>
+    
+                                <div class="report-card-content-info-unit">
+                                    <span class="report-card-content-info-unit_value">200</span>
+                                    <span class="report-card-content-info-unit_label">Breaches</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image" src="{#asset ./assets/img-government.svg @encoding=dataURI}"
+                                    alt="Government" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Government</span>
+                                </header>
+    
+                                <div class="report-card-content-info-unit">
+                                    <span class="report-card-content-info-unit_value">200</span>
+                                    <span class="report-card-content-info-unit_label">Breaches</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="report-section-group-cards-row">
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image" src="{#asset ./assets/img-adult-industry.svg @encoding=dataURI}"
+                                    alt="Entertainment" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Adult Industry</span>
+                                </header>
+    
+                                <div class="report-card-content-info-unit">
+                                    <span class="report-card-content-info-unit_value">200</span>
+                                    <span class="report-card-content-info-unit_label">Breaches</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image" src="{#asset ./assets/img-dating.svg @encoding=dataURI}" alt="Government" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Daiting</span>
+                                </header>
+    
+                                <div class="report-card-content-info-unit">
+                                    <span class="report-card-content-info-unit_value">200</span>
+                                    <span class="report-card-content-info-unit_label">Breaches</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="report-section-group-cards-row">
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image" src="{#asset ./assets/img-search-engines.svg @encoding=dataURI}"
+                                    alt="Entertainment" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Search Engines</span>
+                                </header>
+    
+                                <div class="report-card-content-info-unit">
+                                    <span class="report-card-content-info-unit_value">200</span>
+                                    <span class="report-card-content-info-unit_label">Breaches</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="report-card">
+                            <div class="report-card-left-image">
+                                <img class="report-card-image" src="{#asset ./assets/img-media.svg @encoding=dataURI}" alt="Government" />
+                            </div>
+    
+                            <div class="report-card-content">
+                                <header class="report-card-content-header">
+                                    <span class="report-card-content-header-title">Media</span>
+                                </header>
+    
+                                <div class="report-card-content-info-unit">
+                                    <span class="report-card-content-info-unit_value">200</span>
+                                    <span class="report-card-content-info-unit_label">Breaches</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <article class="reporting-section-article">
+                    <div class="reporting-section-article-image">
+                        <img src="{#asset ./assets/img-people-office.svg @encoding=dataURI}" alt="person office" />
+                    </div>
+    
+                    <div class="reporting-section-article-content">
+                        <div class="reporting-section-article-text">
+                            <div class="reporting-section-article-header">
+                                <h5>About breaches</h5>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Illum dolor explicabo amet ipsam, impedit, accusamus officiis
+                                unde voluptates culpa odio, odit qui minima minus! Dolorem
+                                quaerat repellat odit labore optio.
+                            </p>
+                            <br />
+                            <h4>
+                                "Duis aute irure dolor in reprehenderit in voluptate velit"
+                            </h4>
+                        </div>
+                    </div>
+                </article>
+            </main>
+    
+            <footer class="reporting-footer">
+                <span>Client Name</span>
+                <span>Date</span>
+                <span>By: Partner Name</span>
+            </footer>
+        </div>
+    </section>
+</body> 
 </html>

@@ -175,3 +175,136 @@ TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/trou
     at evaluateAssets (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:67:24)
     at Object.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:391:34)
 2020-09-22T03:06:14.327Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-22T17:43:07.519Z - error: Error when processing OData POST: /odata/assets Error: Entity with name "img-entertainment.svg" already exists in the /Report-ui/assets folder.
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at validateDuplicatedName (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\folders\validateDuplicatedName.js:87:20)
+2020-09-22T21:11:02.214Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:02.422Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:02.520Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:02.642Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:02.770Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:02.884Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:03.029Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:04.049Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:14:19.257Z - error: Rendering request 76 finished with error in 26 ms
+2020-09-22T21:14:19.260Z - error: Error when processing render request 76 Asset 22222.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\22222.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\22222.png' Error: Asset 22222.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\22222.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\22222.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-22T21:14:19.262Z - error: Error during processing request at http://localhost:8001/api/report/report-1
+2020-09-25T20:46:31.834Z - error: Rendering request 1 finished with error in 13390 ms
+2020-09-25T20:46:31.888Z - error: Error when processing render request 1 Failed to launch chrome!
+[0925/174630.460:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFA42B11252+16183762]
+	ovly_debug_event [0x00007FFA42B10832+16181170]
+	ovly_debug_event [0x00007FFA42B23383+16257795]
+	ovly_debug_event [0x00007FFA42B13386+16192262]
+	ovly_debug_event [0x00007FFA42664B2E+11283118]
+	ovly_debug_event [0x00007FFA42A8DB58+15645400]
+	ovly_debug_event [0x00007FFA42A8DACD+15645261]
+	ovly_debug_event [0x00007FFA42AB8F28+15822504]
+	ovly_debug_event [0x00007FFA42A8D35E+15643358]
+	ovly_debug_event [0x00007FFA42AB83E3+15819619]
+	ovly_debug_event [0x00007FFA42AB82BB+15819323]
+	ovly_debug_event [0x00007FFA42AB80F2+15818866]
+	ChromeMain [0x00007FFA41BA11B6+286]
+	Ordinal0 [0x00007FF6C186275F+10079]
+	Ordinal0 [0x00007FF6C186182D+6189]
+	GetHandleVerifier [0x00007FF6C196B7C2+697538]
+	BaseThreadInitThunk [0x00007FFAC9426FD4+20]
+	RtlUserThreadStart [0x00007FFACB03CEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+ Error: Failed to launch chrome!
+[0925/174630.460:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFA42B11252+16183762]
+	ovly_debug_event [0x00007FFA42B10832+16181170]
+	ovly_debug_event [0x00007FFA42B23383+16257795]
+	ovly_debug_event [0x00007FFA42B13386+16192262]
+	ovly_debug_event [0x00007FFA42664B2E+11283118]
+	ovly_debug_event [0x00007FFA42A8DB58+15645400]
+	ovly_debug_event [0x00007FFA42A8DACD+15645261]
+	ovly_debug_event [0x00007FFA42AB8F28+15822504]
+	ovly_debug_event [0x00007FFA42A8D35E+15643358]
+	ovly_debug_event [0x00007FFA42AB83E3+15819619]
+	ovly_debug_event [0x00007FFA42AB82BB+15819323]
+	ovly_debug_event [0x00007FFA42AB80F2+15818866]
+	ChromeMain [0x00007FFA41BA11B6+286]
+	Ordinal0 [0x00007FF6C186275F+10079]
+	Ordinal0 [0x00007FF6C186182D+6189]
+	GetHandleVerifier [0x00007FF6C196B7C2+697538]
+	BaseThreadInitThunk [0x00007FFAC9426FD4+20]
+	RtlUserThreadStart [0x00007FFACB03CEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+
+    at onClose (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:348:14)
+    at ChildProcess.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:338:60)
+    at ChildProcess.emit (events.js:327:22)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+2020-09-25T20:46:31.900Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:29:47.091Z - error: Rendering request 33 finished with error in 28 ms
+2020-09-25T21:29:47.094Z - error: Error when processing render request 33 Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png' Error: Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:29:47.096Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:30:27.335Z - error: Rendering request 34 finished with error in 17 ms
+2020-09-25T21:30:27.337Z - error: Error when processing render request 34 Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png' Error: Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:30:27.339Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:30:30.744Z - error: Rendering request 35 finished with error in 37 ms
+2020-09-25T21:30:30.746Z - error: Error when processing render request 35 Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png' Error: Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:30:30.747Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:30:47.717Z - error: Rendering request 36 finished with error in 28 ms
+2020-09-25T21:30:47.719Z - error: Error when processing render request 36 Asset ./assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-your-logo-here.png' Error: Asset ./assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:30:47.721Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:32:25.808Z - error: Error when processing OData POST: /odata/assets Error: Entity with name "img-exposed-passwords.svg" already exists in the /Report-ui/assets folder.
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at validateDuplicatedName (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\folders\validateDuplicatedName.js:87:20)
+2020-09-25T21:46:49.044Z - error: Rendering request 46 finished with error in 44 ms
+2020-09-25T21:46:49.047Z - error: Error when processing render request 46 Asset ./assets/images/img-unique-data-breaches.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-unique-data-breaches.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-unique-data-breaches.svg' Error: Asset ./assets/images/img-unique-data-breaches.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-unique-data-breaches.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-unique-data-breaches.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:46:49.050Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:48:11.463Z - error: Rendering request 48 finished with error in 28 ms
+2020-09-25T21:48:11.466Z - error: Error when processing render request 48 Asset ./assets/images/img-page-1-graphic.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-page-1-graphic.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-page-1-graphic.png' Error: Asset ./assets/images/img-page-1-graphic.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-page-1-graphic.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-page-1-graphic.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:48:11.468Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:58:19.905Z - error: Rendering request 56 finished with error in 49 ms
+2020-09-25T21:58:19.919Z - error: Error when processing render request 56 Asset ./assets/images/img-technology.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-technology.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-technology.svg' Error: Asset ./assets/images/img-technology.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-technology.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-technology.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:58:19.922Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:58:44.114Z - error: Rendering request 57 finished with error in 28 ms
+2020-09-25T21:58:44.119Z - error: Error when processing render request 57 Asset ./assets/img-media.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-media.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-media.svg' Error: Asset ./assets/img-media.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-media.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-media.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:58:44.121Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main

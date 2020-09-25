@@ -1730,3 +1730,1187 @@ TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/trou
 2020-09-22T14:24:26.683Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
 2020-09-22T14:24:26.688Z - info: Searching for available extensions in D:\PROJETOS\jsreportapp\
 2020-09-22T14:24:26.863Z - info: Extensions location cache contains up to date information, skipping crawling in D:\PROJETOS\jsreportapp\
+2020-09-22T14:24:26.977Z - info: Found 35 extensions
+2020-09-22T14:24:31.506Z - info: Setting http-server strategy for rendering
+2020-09-22T14:24:32.182Z - info: Using extension cli@2.2.5
+2020-09-22T14:24:32.250Z - info: Using extension debug@2.1.3
+2020-09-22T14:24:32.266Z - info: Using extension express@2.8.0
+2020-09-22T14:24:39.713Z - info: Using extension freeze@2.0.0
+2020-09-22T14:24:39.856Z - info: Using extension handlebars@2.1.0
+2020-09-22T14:24:40.080Z - info: Using extension import-export@2.1.0
+2020-09-22T14:24:42.531Z - info: Using extension jsrender@2.1.1
+2020-09-22T14:24:42.536Z - info: Using extension tags@2.5.0
+2020-09-22T14:24:42.649Z - info: Using extension templates@2.4.0
+2020-09-22T14:24:42.792Z - info: Using extension authorization@2.4.0
+2020-09-22T14:24:43.078Z - info: Using extension base@2.0.2
+2020-09-22T14:24:43.084Z - info: Using extension browser-client@2.2.2
+2020-09-22T14:24:43.233Z - info: Using extension child-templates@1.4.0
+2020-09-22T14:24:43.523Z - info: Using extension chrome-pdf@1.9.0
+2020-09-22T14:24:48.854Z - info: Using extension data@2.4.0
+2020-09-22T14:24:48.968Z - info: Using extension docx@2.8.0
+2020-09-22T14:24:49.273Z - info: Using extension fs-store@2.9.0
+2020-09-22T14:24:58.873Z - info: Using extension licensing@2.2.3
+2020-09-22T14:24:58.933Z - info: Using extension pdf-utils@1.9.0
+2020-09-22T14:25:01.438Z - info: Using extension pptx@0.7.0
+2020-09-22T14:25:01.526Z - info: Using extension reports@2.5.0
+2020-09-22T14:25:01.596Z - info: Using extension static-pdf@0.4.0
+2020-09-22T14:25:01.730Z - info: Using extension studio@2.10.1
+2020-09-22T14:25:02.868Z - info: Using extension text@2.0.0
+2020-09-22T14:25:02.911Z - info: Using extension version-control@1.5.1
+2020-09-22T14:25:05.663Z - info: Using extension assets@1.7.0
+2020-09-22T14:25:05.878Z - info: Using extension html-to-xlsx@2.8.0
+2020-09-22T14:25:15.226Z - info: html-to-xlsx detected chrome as available html engine
+2020-09-22T14:25:15.228Z - info: Using extension scheduling@2.5.0
+2020-09-22T14:25:15.756Z - info: Using extension scripts@2.6.0
+2020-09-22T14:25:15.821Z - info: Using extension studio-theme-dark@0.3.0
+2020-09-22T14:25:15.863Z - info: Using extension xlsx@2.5.0
+2020-09-22T14:25:19.191Z - info: Using extension public-templates@2.2.0
+2020-09-22T14:25:19.267Z - info: Using extension resources@2.1.0
+2020-09-22T14:25:19.305Z - info: Using extension sample-template@2.6.0
+2020-09-22T14:25:19.383Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-09-22T14:25:19.387Z - info: Using fs provider for template store.
+2020-09-22T14:25:19.418Z - info: fs store is persisting using fs
+2020-09-22T14:25:19.429Z - info: fs store is synchronizing using fs
+2020-09-22T14:25:19.463Z - info: fs store is loading data
+2020-09-22T14:25:19.738Z - info: fs store is initialized successfully
+2020-09-22T14:25:19.766Z - info: Creating default express app.
+2020-09-22T14:25:20.509Z - info: jsreport server successfully started on http port: 8001
+2020-09-22T14:25:20.513Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-09-22T14:25:20.899Z - info: Verifying license key free
+2020-09-22T14:25:20.908Z - info: Using free license
+2020-09-22T14:25:20.930Z - info: reporter initialized
+2020-09-22T14:30:49.292Z - info: Starting rendering request 1 (user: null)
+2020-09-22T14:30:49.453Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T14:30:54.093Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T14:30:58.882Z - info: Rendering request 1 finished in 10152 ms
+2020-09-22T14:38:32.744Z - info: Starting rendering request 2 (user: null)
+2020-09-22T14:38:32.770Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T14:38:36.813Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T14:38:40.033Z - info: Rendering request 2 finished in 7301 ms
+2020-09-22T14:39:24.668Z - info: Starting rendering request 3 (user: null)
+2020-09-22T14:39:24.672Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T14:39:26.556Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T14:39:28.387Z - info: Rendering request 3 finished in 3720 ms
+2020-09-22T14:39:56.908Z - info: Starting rendering request 4 (user: null)
+2020-09-22T14:39:56.911Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T14:39:58.544Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T14:40:00.681Z - info: Rendering request 4 finished in 3771 ms
+2020-09-22T14:43:28.213Z - info: Starting rendering request 5 (user: null)
+2020-09-22T14:43:28.216Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T14:43:31.682Z - info: Rendering request 5 finished in 3489 ms
+2020-09-22T14:44:49.224Z - info: Starting rendering request 6 (user: null)
+2020-09-22T14:44:49.232Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T14:44:54.114Z - info: Rendering request 6 finished in 4891 ms
+2020-09-22T14:53:00.522Z - info: Starting rendering request 7 (user: null)
+2020-09-22T14:53:00.529Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T14:53:04.039Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T14:53:09.981Z - info: Rendering request 7 finished in 9463 ms
+2020-09-22T14:53:19.622Z - info: Starting rendering request 8 (user: null)
+2020-09-22T14:53:19.759Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T14:53:22.315Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T14:53:23.914Z - info: Rendering request 8 finished in 4323 ms
+2020-09-22T15:44:14.131Z - info: fs store is loading data
+2020-09-22T15:44:14.654Z - info: Starting rendering request 9 (user: null)
+2020-09-22T15:44:14.661Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:44:16.260Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:44:20.240Z - info: Rendering request 9 finished in 5587 ms
+2020-09-22T15:45:10.072Z - info: fs store is loading data
+2020-09-22T15:45:10.513Z - info: Starting rendering request 10 (user: null)
+2020-09-22T15:45:10.515Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:45:12.473Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:45:14.305Z - info: Rendering request 10 finished in 3792 ms
+2020-09-22T15:46:03.856Z - info: fs store is loading data
+2020-09-22T15:46:04.356Z - info: Starting rendering request 11 (user: null)
+2020-09-22T15:46:04.360Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:46:06.085Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:46:08.119Z - info: Rendering request 11 finished in 3773 ms
+2020-09-22T15:46:20.587Z - info: fs store is loading data
+2020-09-22T15:46:20.902Z - info: Starting rendering request 12 (user: null)
+2020-09-22T15:46:20.905Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:46:22.227Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:46:23.656Z - info: Rendering request 12 finished in 2755 ms
+2020-09-22T15:46:33.927Z - info: fs store is loading data
+2020-09-22T15:46:34.292Z - info: Starting rendering request 13 (user: null)
+2020-09-22T15:46:34.295Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:46:35.612Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:46:37.539Z - info: Rendering request 13 finished in 3247 ms
+2020-09-22T15:46:51.739Z - info: fs store is loading data
+2020-09-22T15:46:52.072Z - info: Starting rendering request 14 (user: null)
+2020-09-22T15:46:52.076Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:46:53.624Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:46:55.071Z - info: Rendering request 14 finished in 3003 ms
+2020-09-22T15:47:20.519Z - info: fs store is loading data
+2020-09-22T15:47:21.005Z - info: Starting rendering request 15 (user: null)
+2020-09-22T15:47:21.009Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:47:23.374Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:47:25.099Z - info: Rendering request 15 finished in 4099 ms
+2020-09-22T15:49:36.184Z - info: fs store is loading data
+2020-09-22T15:49:36.725Z - info: Starting rendering request 16 (user: null)
+2020-09-22T15:49:36.730Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:49:39.394Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:49:41.292Z - info: Rendering request 16 finished in 4575 ms
+2020-09-22T15:52:56.880Z - info: fs store is loading data
+2020-09-22T15:52:57.333Z - info: Starting rendering request 17 (user: null)
+2020-09-22T15:52:57.335Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:52:58.836Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:53:00.868Z - info: Rendering request 17 finished in 3541 ms
+2020-09-22T15:53:05.883Z - info: fs store is loading data
+2020-09-22T15:53:06.262Z - info: Starting rendering request 18 (user: null)
+2020-09-22T15:53:06.264Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:53:08.048Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:53:10.077Z - info: Rendering request 18 finished in 3816 ms
+2020-09-22T15:53:33.663Z - info: fs store is loading data
+2020-09-22T15:53:34.242Z - info: Starting rendering request 19 (user: null)
+2020-09-22T15:53:34.246Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:53:35.315Z - info: fs store is loading data
+2020-09-22T15:53:36.120Z - info: Starting rendering request 20 (user: null)
+2020-09-22T15:53:36.131Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:53:36.950Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:53:38.550Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:53:39.750Z - info: Rendering request 19 finished in 5559 ms
+2020-09-22T15:53:40.673Z - info: Rendering request 20 finished in 4584 ms
+2020-09-22T15:54:04.967Z - info: fs store is loading data
+2020-09-22T15:54:05.829Z - info: Starting rendering request 21 (user: null)
+2020-09-22T15:54:05.856Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:54:09.518Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:54:11.389Z - info: Rendering request 21 finished in 5639 ms
+2020-09-22T15:54:27.746Z - info: fs store is loading data
+2020-09-22T15:54:28.142Z - info: Starting rendering request 22 (user: null)
+2020-09-22T15:54:28.161Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:54:29.525Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:54:30.966Z - info: Rendering request 22 finished in 2850 ms
+2020-09-22T15:54:57.107Z - info: fs store is loading data
+2020-09-22T15:54:57.385Z - info: Starting rendering request 23 (user: null)
+2020-09-22T15:54:57.388Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:54:58.678Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:55:00.610Z - info: Rendering request 23 finished in 3224 ms
+2020-09-22T15:55:09.137Z - info: fs store is loading data
+2020-09-22T15:55:09.450Z - info: Starting rendering request 24 (user: null)
+2020-09-22T15:55:09.454Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:55:11.317Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:55:12.984Z - info: Rendering request 24 finished in 3536 ms
+2020-09-22T15:55:57.343Z - info: fs store is loading data
+2020-09-22T15:55:57.736Z - info: Starting rendering request 25 (user: null)
+2020-09-22T15:55:57.755Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:55:59.664Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:56:01.634Z - info: Rendering request 25 finished in 3976 ms
+2020-09-22T15:56:15.476Z - info: fs store is loading data
+2020-09-22T15:56:16.105Z - info: Starting rendering request 26 (user: null)
+2020-09-22T15:56:16.109Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T15:56:18.162Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T15:56:20.253Z - info: Rendering request 26 finished in 4149 ms
+2020-09-22T16:01:51.546Z - info: fs store is loading data
+2020-09-22T16:01:51.909Z - info: Starting rendering request 27 (user: null)
+2020-09-22T16:01:51.911Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:01:53.225Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:01:55.299Z - info: Rendering request 27 finished in 3389 ms
+2020-09-22T16:02:40.828Z - info: fs store is loading data
+2020-09-22T16:02:41.214Z - info: Starting rendering request 28 (user: null)
+2020-09-22T16:02:41.216Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:02:42.687Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:02:44.290Z - info: Rendering request 28 finished in 3076 ms
+2020-09-22T16:03:15.693Z - info: fs store is loading data
+2020-09-22T16:03:16.023Z - info: Starting rendering request 29 (user: null)
+2020-09-22T16:03:16.025Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:03:17.367Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:03:19.034Z - info: Rendering request 29 finished in 3012 ms
+2020-09-22T16:05:33.128Z - info: fs store is loading data
+2020-09-22T16:05:33.510Z - info: Starting rendering request 30 (user: null)
+2020-09-22T16:05:33.512Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:05:35.091Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:05:36.373Z - info: fs store is loading data
+2020-09-22T16:05:37.073Z - info: Starting rendering request 31 (user: null)
+2020-09-22T16:05:37.079Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:05:37.081Z - info: Rendering request 30 finished in 3571 ms
+2020-09-22T16:05:38.286Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:05:39.761Z - info: Rendering request 31 finished in 2690 ms
+2020-09-22T16:07:23.358Z - info: fs store is loading data
+2020-09-22T16:07:23.792Z - info: Starting rendering request 32 (user: null)
+2020-09-22T16:07:23.794Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:07:25.490Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:07:27.873Z - info: Rendering request 32 finished in 4081 ms
+2020-09-22T16:07:41.549Z - info: fs store is loading data
+2020-09-22T16:07:41.894Z - info: Starting rendering request 33 (user: null)
+2020-09-22T16:07:41.906Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:07:43.321Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:07:45.065Z - info: Rendering request 33 finished in 3174 ms
+2020-09-22T16:11:37.145Z - info: fs store is loading data
+2020-09-22T16:11:37.570Z - info: Starting rendering request 34 (user: null)
+2020-09-22T16:11:37.572Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:11:39.507Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:11:41.122Z - info: Rendering request 34 finished in 3555 ms
+2020-09-22T16:11:57.534Z - info: fs store is loading data
+2020-09-22T16:11:57.849Z - info: Starting rendering request 35 (user: null)
+2020-09-22T16:11:57.852Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:11:59.240Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:12:01.099Z - info: Rendering request 35 finished in 3249 ms
+2020-09-22T16:12:21.513Z - info: fs store is loading data
+2020-09-22T16:12:21.919Z - info: Starting rendering request 36 (user: null)
+2020-09-22T16:12:21.925Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:12:23.541Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:12:25.242Z - info: Rendering request 36 finished in 3323 ms
+2020-09-22T16:12:40.512Z - info: fs store is loading data
+2020-09-22T16:12:40.816Z - info: Starting rendering request 37 (user: null)
+2020-09-22T16:12:40.823Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:12:42.175Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:12:43.974Z - info: Rendering request 37 finished in 3159 ms
+2020-09-22T16:12:59.093Z - info: fs store is loading data
+2020-09-22T16:12:59.388Z - info: Starting rendering request 38 (user: null)
+2020-09-22T16:12:59.391Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:13:01.207Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:13:03.160Z - info: Rendering request 38 finished in 3776 ms
+2020-09-22T16:13:20.185Z - info: fs store is loading data
+2020-09-22T16:13:20.552Z - info: Starting rendering request 39 (user: null)
+2020-09-22T16:13:20.555Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:13:22.073Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:13:23.790Z - info: Rendering request 39 finished in 3243 ms
+2020-09-22T16:13:29.863Z - info: fs store is loading data
+2020-09-22T16:13:30.244Z - info: Starting rendering request 40 (user: null)
+2020-09-22T16:13:30.246Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:13:31.756Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:13:33.955Z - info: Rendering request 40 finished in 3712 ms
+2020-09-22T16:13:44.054Z - info: fs store is loading data
+2020-09-22T16:13:44.448Z - info: Starting rendering request 41 (user: null)
+2020-09-22T16:13:44.450Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:13:46.164Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:13:49.320Z - info: Rendering request 41 finished in 4882 ms
+2020-09-22T16:14:28.096Z - info: fs store is loading data
+2020-09-22T16:14:28.452Z - info: Starting rendering request 42 (user: null)
+2020-09-22T16:14:28.454Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:14:29.769Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:14:31.420Z - info: Rendering request 42 finished in 2975 ms
+2020-09-22T16:14:51.473Z - info: Starting rendering request 43 (user: null)
+2020-09-22T16:14:51.478Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:14:52.711Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:14:54.237Z - info: Rendering request 43 finished in 2765 ms
+2020-09-22T16:18:08.840Z - info: fs store is loading data
+2020-09-22T16:18:09.666Z - info: Starting rendering request 44 (user: null)
+2020-09-22T16:18:09.673Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:18:11.634Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:18:13.257Z - info: Rendering request 44 finished in 3869 ms
+2020-09-22T16:18:16.710Z - info: fs store is loading data
+2020-09-22T16:18:16.984Z - info: Starting rendering request 45 (user: null)
+2020-09-22T16:18:16.988Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:18:18.449Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:18:20.093Z - info: Rendering request 45 finished in 3108 ms
+2020-09-22T16:18:21.066Z - info: fs store is loading data
+2020-09-22T16:18:21.383Z - info: Starting rendering request 46 (user: null)
+2020-09-22T16:18:21.394Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:18:22.802Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:18:24.542Z - info: Rendering request 46 finished in 3159 ms
+2020-09-22T16:18:50.736Z - info: fs store is loading data
+2020-09-22T16:18:51.051Z - info: Starting rendering request 47 (user: null)
+2020-09-22T16:18:51.053Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:18:52.502Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:18:54.033Z - info: Rendering request 47 finished in 2980 ms
+2020-09-22T16:19:07.148Z - info: fs store is loading data
+2020-09-22T16:19:07.987Z - info: Starting rendering request 48 (user: null)
+2020-09-22T16:19:07.995Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:19:09.748Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:19:11.612Z - info: Rendering request 48 finished in 3943 ms
+2020-09-22T16:19:31.423Z - info: fs store is loading data
+2020-09-22T16:19:31.804Z - info: Starting rendering request 49 (user: null)
+2020-09-22T16:19:31.806Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:19:33.545Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:19:35.626Z - info: Rendering request 49 finished in 3832 ms
+2020-09-22T16:20:01.794Z - info: fs store is loading data
+2020-09-22T16:20:02.197Z - info: Starting rendering request 50 (user: null)
+2020-09-22T16:20:02.208Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:20:04.091Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:20:05.975Z - info: Rendering request 50 finished in 3783 ms
+2020-09-22T16:20:19.642Z - info: fs store is loading data
+2020-09-22T16:20:19.991Z - info: Starting rendering request 51 (user: null)
+2020-09-22T16:20:19.994Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:20:21.640Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:20:23.226Z - info: Rendering request 51 finished in 3238 ms
+2020-09-22T16:20:40.587Z - info: fs store is loading data
+2020-09-22T16:20:40.950Z - info: Starting rendering request 52 (user: null)
+2020-09-22T16:20:40.953Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:20:42.344Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:20:43.949Z - info: Rendering request 52 finished in 3002 ms
+2020-09-22T16:20:52.441Z - info: fs store is loading data
+2020-09-22T16:20:52.836Z - info: Starting rendering request 53 (user: null)
+2020-09-22T16:20:52.850Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:20:54.267Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:20:55.742Z - info: Rendering request 53 finished in 2941 ms
+2020-09-22T16:21:20.665Z - info: fs store is loading data
+2020-09-22T16:21:21.166Z - info: Starting rendering request 54 (user: null)
+2020-09-22T16:21:21.171Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:21:22.980Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:21:24.711Z - info: Rendering request 54 finished in 3553 ms
+2020-09-22T16:21:46.712Z - info: Starting rendering request 55 (user: null)
+2020-09-22T16:21:46.714Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T16:21:47.895Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T16:21:49.334Z - info: Rendering request 55 finished in 2621 ms
+2020-09-22T17:43:07.519Z - error: Error when processing OData POST: /odata/assets Error: Entity with name "img-entertainment.svg" already exists in the /Report-ui/assets folder.
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at validateDuplicatedName (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\folders\validateDuplicatedName.js:87:20)
+2020-09-22T17:48:58.481Z - info: fs store is loading data
+2020-09-22T17:48:58.988Z - info: Starting rendering request 56 (user: null)
+2020-09-22T17:48:58.991Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T17:49:01.739Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T17:49:06.607Z - info: Rendering request 56 finished in 7622 ms
+2020-09-22T17:49:49.046Z - info: fs store is loading data
+2020-09-22T17:49:49.389Z - info: Starting rendering request 57 (user: null)
+2020-09-22T17:49:49.393Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T17:49:50.686Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T17:49:52.098Z - info: Rendering request 57 finished in 2734 ms
+2020-09-22T17:51:30.247Z - info: fs store is loading data
+2020-09-22T17:51:30.975Z - info: Starting rendering request 58 (user: null)
+2020-09-22T17:51:30.988Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T17:51:32.938Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T17:51:35.081Z - info: Rendering request 58 finished in 4213 ms
+2020-09-22T17:51:58.238Z - info: fs store is loading data
+2020-09-22T17:51:58.598Z - info: Starting rendering request 59 (user: null)
+2020-09-22T17:51:58.600Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T17:51:59.888Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T17:52:01.804Z - info: Rendering request 59 finished in 3206 ms
+2020-09-22T17:53:03.625Z - info: fs store is loading data
+2020-09-22T17:53:04.051Z - info: Starting rendering request 60 (user: null)
+2020-09-22T17:53:04.053Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T17:53:06.306Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T17:53:08.185Z - info: Rendering request 60 finished in 4139 ms
+2020-09-22T17:58:05.833Z - info: fs store is loading data
+2020-09-22T17:58:06.227Z - info: Starting rendering request 61 (user: null)
+2020-09-22T17:58:06.229Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T17:58:07.643Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T17:58:10.002Z - info: Rendering request 61 finished in 3774 ms
+2020-09-22T17:59:04.486Z - info: fs store is loading data
+2020-09-22T17:59:04.954Z - info: Starting rendering request 62 (user: null)
+2020-09-22T17:59:04.965Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T17:59:06.628Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T17:59:08.588Z - info: Rendering request 62 finished in 3708 ms
+2020-09-22T17:59:21.659Z - info: Starting rendering request 63 (user: null)
+2020-09-22T17:59:21.662Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T17:59:22.996Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T17:59:24.761Z - info: Rendering request 63 finished in 3103 ms
+2020-09-22T18:00:09.083Z - info: fs store is loading data
+2020-09-22T18:00:09.478Z - info: Starting rendering request 64 (user: null)
+2020-09-22T18:00:09.482Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T18:00:10.966Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T18:00:13.038Z - info: Rendering request 64 finished in 3560 ms
+2020-09-22T18:00:30.408Z - info: fs store is loading data
+2020-09-22T18:00:30.770Z - info: Starting rendering request 65 (user: null)
+2020-09-22T18:00:30.774Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T18:00:32.066Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T18:00:33.950Z - info: Rendering request 65 finished in 3179 ms
+2020-09-22T18:07:12.459Z - info: fs store is loading data
+2020-09-22T18:07:12.937Z - info: Starting rendering request 66 (user: null)
+2020-09-22T18:07:12.939Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T18:07:14.869Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T18:07:17.143Z - info: Rendering request 66 finished in 4214 ms
+2020-09-22T18:07:23.655Z - info: fs store is loading data
+2020-09-22T18:07:24.075Z - info: Starting rendering request 67 (user: null)
+2020-09-22T18:07:24.077Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T18:07:25.525Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T18:07:27.367Z - info: Rendering request 67 finished in 3297 ms
+2020-09-22T20:47:23.570Z - info: fs store is loading data
+2020-09-22T20:47:25.006Z - info: Starting rendering request 68 (user: null)
+2020-09-22T20:47:25.023Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T20:47:33.060Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T20:47:41.254Z - info: Rendering request 68 finished in 16264 ms
+2020-09-22T20:49:37.958Z - info: Starting rendering request 69 (user: null)
+2020-09-22T20:49:37.962Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T20:49:40.658Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T20:49:44.289Z - info: Rendering request 69 finished in 6333 ms
+2020-09-22T20:58:55.577Z - info: Starting rendering request 70 (user: null)
+2020-09-22T20:58:55.580Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T20:58:58.616Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-22T20:59:04.506Z - info: Rendering request 70 finished in 8935 ms
+2020-09-22T21:07:32.222Z - info: Starting rendering request 71 (user: null)
+2020-09-22T21:07:32.225Z - info: Rendering template { name: report-1, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T21:07:32.290Z - warn: Rendering request 71 finished with error in 70 ms
+2020-09-22T21:07:32.295Z - warn: Error when processing render request 71 Error while executing templating engine. Missing helper: "total" Error: Missing helper: "total"
+    at Object.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:29:100)
+    at main (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at D:\PROJETOS\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (D:\PROJETOS\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:131:20)
+2020-09-22T21:07:32.298Z - warn: Error during processing request at http://localhost:8001/api/report/report-1
+2020-09-22T21:09:28.065Z - info: Starting rendering request 72 (user: null)
+2020-09-22T21:09:28.079Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T21:09:32.676Z - info: Rendering request 72 finished in 4617 ms
+2020-09-22T21:11:02.214Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:02.422Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:02.520Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:02.642Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:02.770Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:02.883Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:03.029Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:04.049Z - error: Error when processing OData PATCH: /odata/assets(v6HQnsxMrk4Xv7Rs) Error: Entity (_id: v6HQnsxMrk4Xv7Rs) was modified previously by another source
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-09-22T21:11:19.120Z - info: Starting rendering request 73 (user: null)
+2020-09-22T21:11:19.123Z - info: Rendering template { name: report-1, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T21:11:19.203Z - warn: Rendering request 73 finished with error in 83 ms
+2020-09-22T21:11:19.207Z - warn: Error when processing render request 73 Error while executing templating engine. Missing helper: "total" Error: Missing helper: "total"
+    at Object.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:29:100)
+    at main (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at D:\PROJETOS\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (D:\PROJETOS\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:131:20)
+2020-09-22T21:11:19.208Z - warn: Error during processing request at http://localhost:8001/api/report/report-1
+2020-09-22T21:12:12.419Z - info: Starting rendering request 74 (user: null)
+2020-09-22T21:12:12.421Z - info: Rendering template { name: report-1, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T21:12:13.171Z - warn: Rendering request 74 finished with error in 760 ms
+2020-09-22T21:12:13.185Z - warn: Error when processing render request 74 Error while executing templating engine. Cannot read property 'forEach' of undefined. Error on line 140:11.
+
+  138 | function total(items) {
+  139 |     var sum = 0
+> 140 |     items.forEach(function (i) {
+      |           ^
+  141 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  142 |         sum += i.price
+  143 |     })
+
+ TypeError: Cannot read property 'forEach' of undefined
+    at Object.total (evaluate-template-engine-helpers.js:140:11)
+    at Object.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\render\engineScript.js:207:27)
+    at Object.wrapper (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:29:100)
+    at main (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at D:\PROJETOS\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (D:\PROJETOS\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+2020-09-22T21:12:13.330Z - warn: Error during processing request at http://localhost:8001/api/report/report-1
+2020-09-22T21:13:30.110Z - info: Starting rendering request 75 (user: null)
+2020-09-22T21:13:30.112Z - info: Rendering template { name: report-1, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T21:13:33.127Z - info: Rendering request 75 finished in 3019 ms
+2020-09-22T21:14:19.238Z - info: Starting rendering request 76 (user: null)
+2020-09-22T21:14:19.241Z - info: Rendering template { name: report-1, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T21:14:19.257Z - error: Rendering request 76 finished with error in 26 ms
+2020-09-22T21:14:19.259Z - error: Error when processing render request 76 Asset 22222.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\22222.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\22222.png' Error: Asset 22222.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\22222.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\22222.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-22T21:14:19.262Z - error: Error during processing request at http://localhost:8001/api/report/report-1
+2020-09-22T21:14:36.694Z - info: Starting rendering request 77 (user: null)
+2020-09-22T21:14:36.706Z - info: Rendering template { name: report-1, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T21:14:41.155Z - info: Rendering request 77 finished in 4461 ms
+2020-09-22T21:16:52.410Z - info: Starting rendering request 78 (user: null)
+2020-09-22T21:16:52.412Z - info: Rendering template { name: report-1, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T21:16:55.063Z - info: Rendering request 78 finished in 2653 ms
+2020-09-22T21:18:14.794Z - info: Starting rendering request 79 (user: null)
+2020-09-22T21:18:14.798Z - info: Rendering template { name: report-1, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T21:18:18.894Z - info: Rendering request 79 finished in 4108 ms
+2020-09-22T21:20:51.039Z - info: Starting rendering request 80 (user: null)
+2020-09-22T21:20:51.042Z - info: Rendering template { name: report-1, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-22T21:20:54.742Z - info: Rendering request 80 finished in 3705 ms
+2020-09-25T20:44:16.656Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-09-25T20:44:16.661Z - info: Searching for available extensions in D:\PROJETOS\jsreportapp\
+2020-09-25T20:44:17.332Z - info: Extensions location cache contains up to date information, skipping crawling in D:\PROJETOS\jsreportapp\
+2020-09-25T20:44:18.717Z - info: Found 35 extensions
+2020-09-25T20:44:30.529Z - info: Setting http-server strategy for rendering
+2020-09-25T20:44:31.297Z - info: Using extension cli@2.2.5
+2020-09-25T20:44:31.445Z - info: Using extension debug@2.1.3
+2020-09-25T20:44:31.537Z - info: Using extension express@2.8.0
+2020-09-25T20:44:37.845Z - info: Using extension freeze@2.0.0
+2020-09-25T20:44:37.892Z - info: Using extension handlebars@2.1.0
+2020-09-25T20:44:37.982Z - info: Using extension import-export@2.1.0
+2020-09-25T20:44:39.256Z - info: Using extension jsrender@2.1.1
+2020-09-25T20:44:39.260Z - info: Using extension tags@2.5.0
+2020-09-25T20:44:39.332Z - info: Using extension templates@2.4.0
+2020-09-25T20:44:39.378Z - info: Using extension authorization@2.4.0
+2020-09-25T20:44:39.450Z - info: Using extension base@2.0.2
+2020-09-25T20:44:39.456Z - info: Using extension browser-client@2.2.2
+2020-09-25T20:44:39.575Z - info: Using extension child-templates@1.4.0
+2020-09-25T20:44:39.700Z - info: Using extension chrome-pdf@1.9.0
+2020-09-25T20:44:41.824Z - info: Using extension data@2.4.0
+2020-09-25T20:44:41.865Z - info: Using extension docx@2.8.0
+2020-09-25T20:44:41.993Z - info: Using extension fs-store@2.9.0
+2020-09-25T20:44:45.471Z - info: Using extension licensing@2.2.3
+2020-09-25T20:44:45.510Z - info: Using extension pdf-utils@1.9.0
+2020-09-25T20:44:47.673Z - info: Using extension pptx@0.7.0
+2020-09-25T20:44:47.802Z - info: Using extension reports@2.5.0
+2020-09-25T20:44:47.951Z - info: Using extension static-pdf@0.4.0
+2020-09-25T20:44:48.121Z - info: Using extension studio@2.10.1
+2020-09-25T20:44:49.115Z - info: Using extension text@2.0.0
+2020-09-25T20:44:49.301Z - info: Using extension version-control@1.5.1
+2020-09-25T20:44:51.810Z - info: Using extension assets@1.7.0
+2020-09-25T20:44:52.035Z - info: Using extension html-to-xlsx@2.8.0
+2020-09-25T20:45:01.891Z - info: html-to-xlsx detected chrome as available html engine
+2020-09-25T20:45:01.893Z - info: Using extension scheduling@2.5.0
+2020-09-25T20:45:02.626Z - info: Using extension scripts@2.6.0
+2020-09-25T20:45:02.685Z - info: Using extension studio-theme-dark@0.3.0
+2020-09-25T20:45:02.731Z - info: Using extension xlsx@2.5.0
+2020-09-25T20:45:06.354Z - info: Using extension public-templates@2.2.0
+2020-09-25T20:45:06.400Z - info: Using extension resources@2.1.0
+2020-09-25T20:45:06.407Z - info: Using extension sample-template@2.6.0
+2020-09-25T20:45:06.432Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-09-25T20:45:06.433Z - info: Using fs provider for template store.
+2020-09-25T20:45:06.450Z - info: fs store is persisting using fs
+2020-09-25T20:45:06.457Z - info: fs store is synchronizing using fs
+2020-09-25T20:45:06.503Z - info: fs store is loading data
+2020-09-25T20:45:06.897Z - info: fs store is initialized successfully
+2020-09-25T20:45:06.934Z - info: Creating default express app.
+2020-09-25T20:45:07.462Z - info: jsreport server successfully started on http port: 8001
+2020-09-25T20:45:07.464Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-09-25T20:45:07.730Z - info: Verifying license key free
+2020-09-25T20:45:07.734Z - info: Using free license
+2020-09-25T20:45:07.746Z - info: reporter initialized
+2020-09-25T20:46:18.450Z - info: Starting rendering request 1 (user: null)
+2020-09-25T20:46:18.481Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T20:46:31.834Z - error: Rendering request 1 finished with error in 13390 ms
+2020-09-25T20:46:31.887Z - error: Error when processing render request 1 Failed to launch chrome!
+[0925/174630.460:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFA42B11252+16183762]
+	ovly_debug_event [0x00007FFA42B10832+16181170]
+	ovly_debug_event [0x00007FFA42B23383+16257795]
+	ovly_debug_event [0x00007FFA42B13386+16192262]
+	ovly_debug_event [0x00007FFA42664B2E+11283118]
+	ovly_debug_event [0x00007FFA42A8DB58+15645400]
+	ovly_debug_event [0x00007FFA42A8DACD+15645261]
+	ovly_debug_event [0x00007FFA42AB8F28+15822504]
+	ovly_debug_event [0x00007FFA42A8D35E+15643358]
+	ovly_debug_event [0x00007FFA42AB83E3+15819619]
+	ovly_debug_event [0x00007FFA42AB82BB+15819323]
+	ovly_debug_event [0x00007FFA42AB80F2+15818866]
+	ChromeMain [0x00007FFA41BA11B6+286]
+	Ordinal0 [0x00007FF6C186275F+10079]
+	Ordinal0 [0x00007FF6C186182D+6189]
+	GetHandleVerifier [0x00007FF6C196B7C2+697538]
+	BaseThreadInitThunk [0x00007FFAC9426FD4+20]
+	RtlUserThreadStart [0x00007FFACB03CEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+ Error: Failed to launch chrome!
+[0925/174630.460:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFA42B11252+16183762]
+	ovly_debug_event [0x00007FFA42B10832+16181170]
+	ovly_debug_event [0x00007FFA42B23383+16257795]
+	ovly_debug_event [0x00007FFA42B13386+16192262]
+	ovly_debug_event [0x00007FFA42664B2E+11283118]
+	ovly_debug_event [0x00007FFA42A8DB58+15645400]
+	ovly_debug_event [0x00007FFA42A8DACD+15645261]
+	ovly_debug_event [0x00007FFA42AB8F28+15822504]
+	ovly_debug_event [0x00007FFA42A8D35E+15643358]
+	ovly_debug_event [0x00007FFA42AB83E3+15819619]
+	ovly_debug_event [0x00007FFA42AB82BB+15819323]
+	ovly_debug_event [0x00007FFA42AB80F2+15818866]
+	ChromeMain [0x00007FFA41BA11B6+286]
+	Ordinal0 [0x00007FF6C186275F+10079]
+	Ordinal0 [0x00007FF6C186182D+6189]
+	GetHandleVerifier [0x00007FF6C196B7C2+697538]
+	BaseThreadInitThunk [0x00007FFAC9426FD4+20]
+	RtlUserThreadStart [0x00007FFACB03CEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+
+    at onClose (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:348:14)
+    at ChildProcess.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:338:60)
+    at ChildProcess.emit (events.js:327:22)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+2020-09-25T20:46:31.899Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T20:46:42.224Z - info: Starting rendering request 2 (user: null)
+2020-09-25T20:46:42.226Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T20:46:45.391Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:46:50.513Z - info: Rendering request 2 finished in 8290 ms
+2020-09-25T20:49:00.277Z - info: fs store is loading data
+2020-09-25T20:49:01.198Z - info: Starting rendering request 3 (user: null)
+2020-09-25T20:49:01.202Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T20:49:04.905Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:49:04.912Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:49:04.917Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:49:04.921Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:49:04.929Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:49:04.933Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:49:06.849Z - info: Rendering request 3 finished in 5656 ms
+2020-09-25T20:50:49.530Z - info: Starting rendering request 4 (user: null)
+2020-09-25T20:50:49.533Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T20:50:51.466Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:50:51.474Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:50:51.478Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:50:51.481Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:50:51.485Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:50:51.493Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:50:51.518Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:50:54.072Z - info: Rendering request 4 finished in 4543 ms
+2020-09-25T20:52:21.463Z - info: Starting rendering request 5 (user: null)
+2020-09-25T20:52:21.469Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T20:52:23.099Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:23.103Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:23.107Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:23.110Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:23.117Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:23.120Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:23.143Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:25.455Z - info: Rendering request 5 finished in 3990 ms
+2020-09-25T20:52:48.159Z - info: Starting rendering request 6 (user: null)
+2020-09-25T20:52:48.165Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T20:52:49.895Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:49.898Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:49.902Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:49.907Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:49.935Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:49.941Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:49.946Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:52:52.306Z - info: Rendering request 6 finished in 4149 ms
+2020-09-25T20:54:40.934Z - info: Starting rendering request 7 (user: null)
+2020-09-25T20:54:40.936Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T20:54:42.529Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:54:42.534Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:54:42.538Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:54:42.542Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:54:42.548Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:54:42.552Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:54:42.567Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T20:54:45.040Z - info: Rendering request 7 finished in 4105 ms
+2020-09-25T21:00:56.945Z - info: Starting rendering request 8 (user: null)
+2020-09-25T21:00:56.949Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:00:59.105Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:00:59.111Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:00:59.115Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:00:59.118Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:00:59.123Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:00:59.130Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:00:59.154Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:01:02.052Z - info: Rendering request 8 finished in 5108 ms
+2020-09-25T21:01:36.765Z - info: Starting rendering request 9 (user: null)
+2020-09-25T21:01:36.776Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:01:38.828Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:01:38.878Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:01:38.882Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:01:38.890Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:01:38.896Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:01:38.901Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:01:38.922Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:01:41.191Z - info: Rendering request 9 finished in 4448 ms
+2020-09-25T21:02:11.026Z - info: Starting rendering request 10 (user: null)
+2020-09-25T21:02:11.028Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:02:12.794Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:12.800Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:12.808Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:12.814Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:12.818Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:12.828Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:12.853Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:15.140Z - info: Rendering request 10 finished in 4113 ms
+2020-09-25T21:02:27.748Z - info: Starting rendering request 11 (user: null)
+2020-09-25T21:02:27.751Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:02:29.313Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:29.317Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:29.322Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:29.326Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:29.329Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:29.332Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:29.363Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:02:31.903Z - info: Rendering request 11 finished in 4155 ms
+2020-09-25T21:08:27.083Z - info: Starting rendering request 12 (user: null)
+2020-09-25T21:08:27.108Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:08:29.545Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:29.555Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:29.559Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:29.562Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:29.566Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:29.571Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:29.610Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:32.236Z - info: Rendering request 12 finished in 5161 ms
+2020-09-25T21:08:53.508Z - info: Starting rendering request 13 (user: null)
+2020-09-25T21:08:53.514Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:08:55.118Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:55.122Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:55.130Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:55.136Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:55.183Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:55.186Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:55.189Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:08:57.512Z - info: Rendering request 13 finished in 4004 ms
+2020-09-25T21:09:08.318Z - info: Starting rendering request 14 (user: null)
+2020-09-25T21:09:08.321Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:09:10.067Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:09:10.071Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:09:10.075Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:09:10.081Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:09:10.084Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:09:10.088Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:09:10.108Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:09:12.603Z - info: Rendering request 14 finished in 4286 ms
+2020-09-25T21:12:00.485Z - info: Starting rendering request 15 (user: null)
+2020-09-25T21:12:00.492Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:12:03.067Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:03.072Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:03.080Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:03.084Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:03.088Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:03.098Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:03.136Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:06.129Z - info: Rendering request 15 finished in 5646 ms
+2020-09-25T21:12:33.874Z - info: Starting rendering request 16 (user: null)
+2020-09-25T21:12:33.877Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:12:35.654Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:35.658Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:35.665Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:35.672Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:35.683Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:35.713Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:35.717Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:12:37.850Z - info: Rendering request 16 finished in 3984 ms
+2020-09-25T21:13:51.775Z - info: Starting rendering request 17 (user: null)
+2020-09-25T21:13:51.790Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:13:53.532Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:13:53.538Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:13:53.542Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:13:53.564Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:13:53.570Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:13:53.573Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:13:53.577Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:13:56.094Z - info: Rendering request 17 finished in 4329 ms
+2020-09-25T21:15:50.579Z - info: Starting rendering request 18 (user: null)
+2020-09-25T21:15:50.582Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:15:52.535Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:15:52.539Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:15:52.542Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:15:52.545Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:15:52.565Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:15:52.571Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:15:52.574Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:15:54.819Z - info: Rendering request 18 finished in 4240 ms
+2020-09-25T21:16:08.556Z - info: Starting rendering request 19 (user: null)
+2020-09-25T21:16:08.558Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:16:10.382Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:10.387Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:10.390Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:10.393Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:10.397Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:10.403Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:10.413Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:12.770Z - info: Rendering request 19 finished in 4217 ms
+2020-09-25T21:16:36.912Z - info: Starting rendering request 20 (user: null)
+2020-09-25T21:16:36.914Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:16:38.686Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:38.692Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:38.696Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:38.700Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:38.703Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:38.710Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:38.734Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:41.074Z - info: Rendering request 20 finished in 4164 ms
+2020-09-25T21:16:52.214Z - info: Starting rendering request 21 (user: null)
+2020-09-25T21:16:52.216Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:16:53.785Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:53.788Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:53.794Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:53.803Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:53.814Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:53.817Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:53.826Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:16:55.909Z - info: Rendering request 21 finished in 3692 ms
+2020-09-25T21:17:08.636Z - info: Starting rendering request 22 (user: null)
+2020-09-25T21:17:08.639Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:17:10.389Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:10.400Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:10.404Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:10.406Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:10.413Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:10.417Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:10.434Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:13.189Z - info: Rendering request 22 finished in 4552 ms
+2020-09-25T21:17:40.381Z - info: Starting rendering request 23 (user: null)
+2020-09-25T21:17:40.383Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:17:42.206Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:42.212Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:42.219Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:42.222Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:42.237Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:42.240Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:42.246Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:44.394Z - info: Rendering request 23 finished in 4012 ms
+2020-09-25T21:17:54.623Z - info: Starting rendering request 24 (user: null)
+2020-09-25T21:17:54.625Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:17:56.185Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:56.188Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:56.194Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:56.207Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:56.228Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:56.234Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:56.236Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:17:59.241Z - info: Rendering request 24 finished in 4618 ms
+2020-09-25T21:23:04.468Z - info: Starting rendering request 25 (user: null)
+2020-09-25T21:23:04.471Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:23:06.590Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:06.596Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:06.599Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:06.602Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:06.605Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:06.620Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:06.622Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:09.065Z - info: Rendering request 25 finished in 4612 ms
+2020-09-25T21:23:32.073Z - info: Starting rendering request 26 (user: null)
+2020-09-25T21:23:32.076Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:23:33.697Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:33.704Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:33.708Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:33.716Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:33.720Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:33.723Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:33.752Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:23:36.122Z - info: Rendering request 26 finished in 4055 ms
+2020-09-25T21:24:16.718Z - info: Starting rendering request 27 (user: null)
+2020-09-25T21:24:16.721Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:24:18.378Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:18.381Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:18.384Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:18.414Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:18.417Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:18.419Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:18.424Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:20.548Z - info: Rendering request 27 finished in 3830 ms
+2020-09-25T21:24:29.759Z - info: Starting rendering request 28 (user: null)
+2020-09-25T21:24:29.765Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:24:31.218Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:31.227Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:31.231Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:31.234Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:31.237Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:31.240Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:31.256Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:33.489Z - info: Rendering request 28 finished in 3731 ms
+2020-09-25T21:24:46.152Z - info: Starting rendering request 29 (user: null)
+2020-09-25T21:24:46.155Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:24:47.773Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:47.789Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:47.795Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:47.799Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:47.802Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:47.806Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:47.835Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:24:50.245Z - info: Rendering request 29 finished in 4092 ms
+2020-09-25T21:24:58.510Z - info: Starting rendering request 30 (user: null)
+2020-09-25T21:24:58.512Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:25:00.061Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:25:00.066Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:25:00.091Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:25:00.094Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:25:00.097Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:25:00.104Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:25:00.107Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:25:03.068Z - info: Rendering request 30 finished in 4558 ms
+2020-09-25T21:26:46.104Z - info: Starting rendering request 31 (user: null)
+2020-09-25T21:26:46.108Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:26:47.920Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:26:47.923Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:26:47.930Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:26:47.934Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:26:47.957Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:26:47.963Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:26:47.965Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:26:50.142Z - info: Rendering request 31 finished in 4034 ms
+2020-09-25T21:27:00.149Z - info: Starting rendering request 32 (user: null)
+2020-09-25T21:27:00.153Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:27:02.722Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:27:02.725Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:27:02.732Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:27:02.735Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:27:02.739Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:27:02.742Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:27:02.787Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:27:06.038Z - info: Rendering request 32 finished in 5890 ms
+2020-09-25T21:29:47.064Z - info: Starting rendering request 33 (user: null)
+2020-09-25T21:29:47.066Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:29:47.091Z - error: Rendering request 33 finished with error in 28 ms
+2020-09-25T21:29:47.094Z - error: Error when processing render request 33 Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png' Error: Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:29:47.096Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:30:27.317Z - info: Starting rendering request 34 (user: null)
+2020-09-25T21:30:27.320Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:30:27.335Z - error: Rendering request 34 finished with error in 17 ms
+2020-09-25T21:30:27.337Z - error: Error when processing render request 34 Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png' Error: Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:30:27.338Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:30:30.716Z - info: Starting rendering request 35 (user: null)
+2020-09-25T21:30:30.718Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:30:30.744Z - error: Rendering request 35 finished with error in 37 ms
+2020-09-25T21:30:30.746Z - error: Error when processing render request 35 Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png' Error: Asset ../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:30:30.747Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:30:47.695Z - info: Starting rendering request 36 (user: null)
+2020-09-25T21:30:47.701Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:30:47.717Z - error: Rendering request 36 finished with error in 28 ms
+2020-09-25T21:30:47.719Z - error: Error when processing render request 36 Asset ./assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-your-logo-here.png' Error: Asset ./assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:30:47.721Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:30:57.410Z - info: Starting rendering request 37 (user: null)
+2020-09-25T21:30:57.412Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:30:57.477Z - warn: Rendering request 37 finished with error in 66 ms
+2020-09-25T21:30:57.539Z - warn: Error when processing render request 37 Error while executing templating engine. Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^ Error: Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^
+    at Parser.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Object.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:394:36)
+    at Object.next (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:522:33)
+    at Object.lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:526:30)
+    at lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:297:36)
+    at Parser.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:320:34)
+    at parseWithoutProcessing (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+2020-09-25T21:30:57.541Z - warn: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:31:00.325Z - info: Starting rendering request 38 (user: null)
+2020-09-25T21:31:00.328Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:31:00.376Z - warn: Rendering request 38 finished with error in 51 ms
+2020-09-25T21:31:00.383Z - warn: Error when processing render request 38 Error while executing templating engine. Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^ Error: Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^
+    at Parser.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Object.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:394:36)
+    at Object.next (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:522:33)
+    at Object.lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:526:30)
+    at lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:297:36)
+    at Parser.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:320:34)
+    at parseWithoutProcessing (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+2020-09-25T21:31:00.385Z - warn: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:31:01.157Z - info: Starting rendering request 39 (user: null)
+2020-09-25T21:31:01.159Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:31:01.216Z - warn: Rendering request 39 finished with error in 59 ms
+2020-09-25T21:31:01.224Z - warn: Error when processing render request 39 Error while executing templating engine. Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^ Error: Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^
+    at Parser.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Object.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:394:36)
+    at Object.next (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:522:33)
+    at Object.lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:526:30)
+    at lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:297:36)
+    at Parser.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:320:34)
+    at parseWithoutProcessing (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+2020-09-25T21:31:01.226Z - warn: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:31:01.984Z - info: Starting rendering request 40 (user: null)
+2020-09-25T21:31:01.986Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:31:02.025Z - warn: Rendering request 40 finished with error in 43 ms
+2020-09-25T21:31:02.032Z - warn: Error when processing render request 40 Error while executing templating engine. Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^ Error: Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^
+    at Parser.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Object.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:394:36)
+    at Object.next (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:522:33)
+    at Object.lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:526:30)
+    at lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:297:36)
+    at Parser.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:320:34)
+    at parseWithoutProcessing (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+2020-09-25T21:31:02.034Z - warn: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:31:02.887Z - info: Starting rendering request 41 (user: null)
+2020-09-25T21:31:02.889Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:31:02.937Z - warn: Rendering request 41 finished with error in 49 ms
+2020-09-25T21:31:02.946Z - warn: Error when processing render request 41 Error while executing templating engine. Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^ Error: Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^
+    at Parser.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Object.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:394:36)
+    at Object.next (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:522:33)
+    at Object.lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:526:30)
+    at lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:297:36)
+    at Parser.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:320:34)
+    at parseWithoutProcessing (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+2020-09-25T21:31:02.947Z - warn: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:31:13.262Z - info: Starting rendering request 42 (user: null)
+2020-09-25T21:31:13.263Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:31:13.313Z - warn: Rendering request 42 finished with error in 51 ms
+2020-09-25T21:31:13.320Z - warn: Error when processing render request 42 Error while executing templating engine. Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^ Error: Lexical error on line 532. Unrecognized text.
+...-logo" src="�PNG   IHDR      #  
+---------------------^
+    at Parser.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Object.parseError (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:394:36)
+    at Object.next (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:522:33)
+    at Object.lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:526:30)
+    at lex (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:297:36)
+    at Parser.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:320:34)
+    at parseWithoutProcessing (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\PROJETOS\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+2020-09-25T21:31:13.322Z - warn: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:31:39.825Z - info: Starting rendering request 43 (user: null)
+2020-09-25T21:31:39.828Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:31:41.473Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:31:41.478Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:31:41.481Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:31:41.483Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:31:41.486Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:31:41.518Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:31:43.834Z - info: Rendering request 43 finished in 4011 ms
+2020-09-25T21:32:25.808Z - error: Error when processing OData POST: /odata/assets Error: Entity with name "img-exposed-passwords.svg" already exists in the /Report-ui/assets folder.
+    at module.exports (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at validateDuplicatedName (D:\PROJETOS\jsreportapp\node_modules\jsreport-core\lib\folders\validateDuplicatedName.js:87:20)
+2020-09-25T21:33:06.382Z - info: Starting rendering request 44 (user: null)
+2020-09-25T21:33:06.392Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:33:08.149Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:33:08.161Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:33:08.164Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:33:08.166Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:33:08.231Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:33:10.600Z - info: Rendering request 44 finished in 4218 ms
+2020-09-25T21:45:46.189Z - info: Starting rendering request 45 (user: null)
+2020-09-25T21:45:46.192Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:45:47.787Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:45:47.791Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:45:47.798Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-unique-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:45:47.900Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:45:52.513Z - info: Rendering request 45 finished in 6325 ms
+2020-09-25T21:46:49.005Z - info: Starting rendering request 46 (user: null)
+2020-09-25T21:46:49.009Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:46:49.044Z - error: Rendering request 46 finished with error in 44 ms
+2020-09-25T21:46:49.047Z - error: Error when processing render request 46 Asset ./assets/images/img-unique-data-breaches.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-unique-data-breaches.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-unique-data-breaches.svg' Error: Asset ./assets/images/img-unique-data-breaches.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-unique-data-breaches.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-unique-data-breaches.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:46:49.049Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:46:57.368Z - info: Starting rendering request 47 (user: null)
+2020-09-25T21:46:57.370Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:46:58.994Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:46:59.098Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:47:01.715Z - info: Rendering request 47 finished in 4347 ms
+2020-09-25T21:48:11.440Z - info: Starting rendering request 48 (user: null)
+2020-09-25T21:48:11.443Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:48:11.463Z - error: Rendering request 48 finished with error in 28 ms
+2020-09-25T21:48:11.466Z - error: Error when processing render request 48 Asset ./assets/images/img-page-1-graphic.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-page-1-graphic.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-page-1-graphic.png' Error: Asset ./assets/images/img-page-1-graphic.png not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-page-1-graphic.png. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-page-1-graphic.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:48:11.468Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:48:17.738Z - info: Starting rendering request 49 (user: null)
+2020-09-25T21:48:17.740Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:48:19.332Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:48:21.801Z - info: Rendering request 49 finished in 4064 ms
+2020-09-25T21:49:37.228Z - info: fs store is loading data
+2020-09-25T21:49:37.757Z - info: Starting rendering request 50 (user: null)
+2020-09-25T21:49:37.760Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:49:42.371Z - info: Rendering request 50 finished in 4639 ms
+2020-09-25T21:49:49.379Z - info: Starting rendering request 51 (user: null)
+2020-09-25T21:49:49.383Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:49:50.925Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:49:53.642Z - info: Rendering request 51 finished in 4264 ms
+2020-09-25T21:52:39.963Z - info: fs store is loading data
+2020-09-25T21:52:41.220Z - info: Starting rendering request 52 (user: null)
+2020-09-25T21:52:41.226Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:52:44.031Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:44.079Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-technology.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:44.082Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-social-networking.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:44.088Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-entertainment.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:44.095Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-government.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:44.099Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-adult-industry.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:44.109Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-dating.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:44.113Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-search-engines.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:44.116Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-media.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:44.125Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-people-office.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:45.183Z - info: Rendering request 52 finished in 3988 ms
+2020-09-25T21:52:53.462Z - info: fs store is loading data
+2020-09-25T21:52:54.455Z - info: Starting rendering request 53 (user: null)
+2020-09-25T21:52:54.470Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:52:57.130Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:57.160Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-technology.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:57.165Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-social-networking.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:57.167Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-entertainment.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:57.171Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-government.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:57.182Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-adult-industry.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:57.193Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-dating.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:57.201Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-search-engines.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:57.220Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-media.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:57.226Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-people-office.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:52:58.565Z - info: Rendering request 53 finished in 4311 ms
+2020-09-25T21:52:59.808Z - info: fs store is loading data
+2020-09-25T21:53:00.400Z - info: Starting rendering request 54 (user: null)
+2020-09-25T21:53:00.984Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:53:06.108Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:06.111Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-technology.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:06.117Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-social-networking.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:06.128Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-entertainment.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:06.136Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-government.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:06.140Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-adult-industry.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:06.143Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-dating.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:06.146Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-search-engines.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:06.152Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-media.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:06.160Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-people-office.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:07.520Z - info: Rendering request 54 finished in 7147 ms
+2020-09-25T21:53:31.098Z - info: Starting rendering request 55 (user: null)
+2020-09-25T21:53:31.101Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:53:32.908Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:33.069Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:33.074Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-technology.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:33.077Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-social-networking.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:33.079Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-entertainment.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:33.081Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-government.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:33.089Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-adult-industry.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:33.092Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-dating.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:33.095Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-search-engines.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:33.097Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-media.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:33.099Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-people-office.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:53:35.904Z - info: Rendering request 55 finished in 4808 ms
+2020-09-25T21:58:19.845Z - info: Starting rendering request 56 (user: null)
+2020-09-25T21:58:19.848Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:58:19.905Z - error: Rendering request 56 finished with error in 49 ms
+2020-09-25T21:58:19.918Z - error: Error when processing render request 56 Asset ./assets/images/img-technology.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-technology.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-technology.svg' Error: Asset ./assets/images/img-technology.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-technology.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-technology.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:58:19.922Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:58:44.087Z - info: Starting rendering request 57 (user: null)
+2020-09-25T21:58:44.089Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:58:44.114Z - error: Rendering request 57 finished with error in 28 ms
+2020-09-25T21:58:44.119Z - error: Error when processing render request 57 Asset ./assets/img-media.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-media.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-media.svg' Error: Asset ./assets/img-media.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-media.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-media.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-25T21:58:44.121Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-25T21:59:10.256Z - info: Starting rendering request 58 (user: null)
+2020-09-25T21:59:10.260Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T21:59:12.116Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T21:59:14.745Z - info: Rendering request 58 finished in 4489 ms
+2020-09-25T22:03:59.702Z - info: fs store is loading data
+2020-09-25T22:04:00.896Z - info: Starting rendering request 59 (user: null)
+2020-09-25T22:04:00.900Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
