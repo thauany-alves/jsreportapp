@@ -2914,3 +2914,142 @@ TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/trou
 2020-09-25T22:03:59.702Z - info: fs store is loading data
 2020-09-25T22:04:00.896Z - info: Starting rendering request 59 (user: null)
 2020-09-25T22:04:00.900Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:04:10.495Z - info: Rendering request 59 finished in 9600 ms
+2020-09-25T22:04:39.887Z - info: Starting rendering request 60 (user: null)
+2020-09-25T22:04:39.890Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:04:41.640Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T22:04:44.506Z - info: Rendering request 60 finished in 4620 ms
+2020-09-25T22:05:09.239Z - info: Starting rendering request 61 (user: null)
+2020-09-25T22:05:09.243Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:05:11.376Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T22:05:12.391Z - info: Starting rendering request 62 (user: null)
+2020-09-25T22:05:12.393Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:05:14.639Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T22:05:15.794Z - info: Rendering request 61 finished in 6556 ms
+2020-09-25T22:05:17.724Z - info: Rendering request 62 finished in 5335 ms
+2020-09-25T22:05:37.089Z - info: Starting rendering request 63 (user: null)
+2020-09-25T22:05:37.091Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:05:38.849Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T22:05:41.428Z - info: Rendering request 63 finished in 4339 ms
+2020-09-25T22:05:53.043Z - info: Starting rendering request 64 (user: null)
+2020-09-25T22:05:53.045Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:05:54.989Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T22:05:57.789Z - info: Rendering request 64 finished in 4761 ms
+2020-09-25T22:06:28.275Z - info: Starting rendering request 65 (user: null)
+2020-09-25T22:06:28.278Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:06:30.499Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T22:06:33.466Z - info: Rendering request 65 finished in 5191 ms
+2020-09-25T22:07:15.511Z - info: Starting rendering request 66 (user: null)
+2020-09-25T22:07:15.513Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:07:17.177Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T22:07:20.106Z - info: Rendering request 66 finished in 4597 ms
+2020-09-25T22:07:49.242Z - info: Starting rendering request 67 (user: null)
+2020-09-25T22:07:49.245Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:07:50.813Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T22:07:53.474Z - info: Rendering request 67 finished in 4233 ms
+2020-09-25T22:13:44.447Z - info: Starting rendering request 68 (user: null)
+2020-09-25T22:13:44.450Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:13:46.329Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T22:13:49.088Z - info: Rendering request 68 finished in 4641 ms
+2020-09-25T22:14:18.860Z - info: Starting rendering request 69 (user: null)
+2020-09-25T22:14:18.862Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:14:20.673Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T22:14:23.220Z - info: Rendering request 69 finished in 4360 ms
+2020-09-25T22:16:45.083Z - info: Starting rendering request 70 (user: null)
+2020-09-25T22:16:45.086Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-25T22:16:46.786Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-25T22:16:49.665Z - info: Rendering request 70 finished in 4582 ms
+2020-09-26T00:52:17.329Z - info: Starting rendering request 71 (user: null)
+2020-09-26T00:52:17.332Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T00:52:24.966Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T00:52:31.251Z - info: Rendering request 71 finished in 13938 ms
+2020-09-26T00:53:14.192Z - info: Starting rendering request 72 (user: null)
+2020-09-26T00:53:14.195Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T00:53:16.319Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T00:53:19.165Z - info: Rendering request 72 finished in 4974 ms
+2020-09-26T00:55:29.212Z - info: fs store is loading data
+2020-09-26T00:55:29.999Z - info: Starting rendering request 73 (user: null)
+2020-09-26T00:55:30.004Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T00:55:33.169Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T00:55:34.722Z - info: Rendering request 73 finished in 4731 ms
+2020-09-26T00:55:49.208Z - info: Starting rendering request 74 (user: null)
+2020-09-26T00:55:49.212Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T00:55:50.943Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T00:55:51.149Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T00:55:53.783Z - info: Rendering request 74 finished in 4574 ms
+2020-09-26T00:56:44.905Z - info: Starting rendering request 75 (user: null)
+2020-09-26T00:56:44.907Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T00:56:46.546Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T00:56:49.520Z - info: Rendering request 75 finished in 4615 ms
+2020-09-26T01:00:23.203Z - info: fs store is loading data
+2020-09-26T01:00:23.684Z - info: Starting rendering request 76 (user: null)
+2020-09-26T01:00:23.695Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:00:26.983Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:00:30.676Z - info: Rendering request 76 finished in 6991 ms
+2020-09-26T01:00:36.302Z - info: fs store is loading data
+2020-09-26T01:00:36.827Z - info: Starting rendering request 77 (user: null)
+2020-09-26T01:00:36.832Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:00:38.993Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:00:41.959Z - info: Rendering request 77 finished in 5131 ms
+2020-09-26T01:04:03.383Z - info: fs store is loading data
+2020-09-26T01:04:04.055Z - info: Starting rendering request 78 (user: null)
+2020-09-26T01:04:04.062Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:04:08.179Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:04:11.625Z - info: Rendering request 78 finished in 7570 ms
+2020-09-26T01:05:00.240Z - info: fs store is loading data
+2020-09-26T01:05:00.713Z - info: Starting rendering request 79 (user: null)
+2020-09-26T01:05:00.716Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:05:04.954Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:05:08.322Z - info: Rendering request 79 finished in 7608 ms
+2020-09-26T01:14:40.888Z - info: fs store is loading data
+2020-09-26T01:14:41.581Z - info: Starting rendering request 80 (user: null)
+2020-09-26T01:14:41.637Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:14:44.794Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:14:48.493Z - info: Rendering request 80 finished in 6931 ms
+2020-09-26T01:16:52.348Z - info: fs store is loading data
+2020-09-26T01:16:53.035Z - info: Starting rendering request 81 (user: null)
+2020-09-26T01:16:53.039Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:16:55.692Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:16:59.831Z - info: Rendering request 81 finished in 6802 ms
+2020-09-26T01:33:03.481Z - info: Starting rendering request 82 (user: null)
+2020-09-26T01:33:03.484Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:33:08.123Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:33:14.182Z - info: Rendering request 82 finished in 10700 ms
+2020-09-26T01:34:50.400Z - info: fs store is loading data
+2020-09-26T01:34:51.212Z - info: Starting rendering request 83 (user: null)
+2020-09-26T01:34:51.215Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:34:53.457Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:34:56.250Z - info: Rendering request 83 finished in 5038 ms
+2020-09-26T01:36:07.671Z - info: Starting rendering request 84 (user: null)
+2020-09-26T01:36:07.674Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:36:10.041Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:36:13.434Z - info: Rendering request 84 finished in 5763 ms
+2020-09-26T01:48:34.917Z - info: fs store is loading data
+2020-09-26T01:48:35.437Z - info: Starting rendering request 85 (user: null)
+2020-09-26T01:48:35.440Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:48:37.705Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:48:42.951Z - info: Rendering request 85 finished in 7513 ms
+2020-09-26T01:53:52.007Z - info: fs store is loading data
+2020-09-26T01:53:52.949Z - info: Starting rendering request 86 (user: null)
+2020-09-26T01:53:52.993Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:53:55.772Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:53:55.775Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:53:55.778Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:53:55.806Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:53:57.414Z - info: Rendering request 86 finished in 4476 ms
+2020-09-26T01:54:10.196Z - info: fs store is loading data
+2020-09-26T01:54:10.675Z - info: Starting rendering request 87 (user: null)
+2020-09-26T01:54:10.680Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:54:14.732Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:54:14.736Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:54:14.739Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:54:14.750Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:54:16.009Z - info: Rendering request 87 finished in 5335 ms
+2020-09-26T01:54:22.788Z - info: Starting rendering request 88 (user: null)
+2020-09-26T01:54:22.792Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T01:54:24.548Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:54:24.715Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:54:24.719Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:54:24.723Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:54:24.758Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T01:54:28.042Z - info: Rendering request 88 finished in 5254 ms
