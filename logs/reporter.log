@@ -3053,3 +3053,78 @@ TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/trou
 2020-09-26T01:54:24.723Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
 2020-09-26T01:54:24.758Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
 2020-09-26T01:54:28.042Z - info: Rendering request 88 finished in 5254 ms
+2020-09-26T02:13:53.947Z - info: fs store is loading data
+2020-09-26T02:13:55.183Z - info: Starting rendering request 89 (user: null)
+2020-09-26T02:13:55.205Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T02:13:57.313Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:13:57.489Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:13:57.493Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:13:57.496Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:13:57.522Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:14:04.007Z - info: Rendering request 89 finished in 8832 ms
+2020-09-26T02:22:43.663Z - info: fs store is loading data
+2020-09-26T02:22:44.408Z - info: Starting rendering request 90 (user: null)
+2020-09-26T02:22:44.431Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T02:22:47.264Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:22:47.449Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:22:47.456Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:22:47.461Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:22:47.541Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:22:52.690Z - info: Rendering request 90 finished in 8305 ms
+2020-09-26T02:31:33.982Z - info: fs store is loading data
+2020-09-26T02:31:34.472Z - info: Starting rendering request 91 (user: null)
+2020-09-26T02:31:34.474Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T02:31:36.907Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:31:37.082Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:31:37.089Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:31:37.092Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:31:37.120Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:31:40.208Z - info: Rendering request 91 finished in 5737 ms
+2020-09-26T02:32:14.134Z - info: Starting rendering request 92 (user: null)
+2020-09-26T02:32:14.136Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T02:32:15.740Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:32:15.910Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:32:15.915Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:32:15.919Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:32:15.974Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:32:18.835Z - info: Rendering request 92 finished in 4702 ms
+2020-09-26T02:33:12.055Z - info: Starting rendering request 93 (user: null)
+2020-09-26T02:33:12.059Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T02:33:13.668Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:33:13.844Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:33:13.847Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:33:13.850Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:33:13.886Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:33:16.667Z - info: Rendering request 93 finished in 4611 ms
+2020-09-26T02:34:59.525Z - info: Starting rendering request 94 (user: null)
+2020-09-26T02:34:59.527Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T02:35:01.185Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:35:01.447Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:35:01.457Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:35:01.460Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:35:01.513Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:35:05.090Z - info: Rendering request 94 finished in 5564 ms
+2020-09-26T02:35:34.487Z - info: Starting rendering request 95 (user: null)
+2020-09-26T02:35:34.490Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T02:35:36.085Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:35:36.259Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:35:36.263Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:35:36.268Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:35:36.306Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:35:39.510Z - info: Rendering request 95 finished in 5024 ms
+2020-09-26T02:37:16.771Z - info: Starting rendering request 96 (user: null)
+2020-09-26T02:37:16.776Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T02:37:18.597Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:37:18.765Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-email-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:37:18.813Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-compromised-credentials.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:37:21.718Z - info: Rendering request 96 finished in 4946 ms
+2020-09-26T02:38:16.000Z - info: Starting rendering request 97 (user: null)
+2020-09-26T02:38:16.006Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T02:38:16.325Z - error: Rendering request 97 finished with error in 470 ms
+2020-09-26T02:38:16.336Z - error: Error when processing render request 97 Asset ./assets/images/img-compromised-email-credentials.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-compromised-email-credentials.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-compromised-email-credentials.svg' Error: Asset ./assets/images/img-compromised-email-credentials.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-compromised-email-credentials.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-compromised-email-credentials.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-26T02:38:16.380Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-26T02:38:30.431Z - info: Starting rendering request 98 (user: null)
+2020-09-26T02:38:30.434Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T02:38:32.153Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T02:38:35.521Z - info: Rendering request 98 finished in 5090 ms
