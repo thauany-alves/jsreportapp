@@ -3128,3 +3128,23 @@ TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/trou
 2020-09-26T02:38:30.434Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
 2020-09-26T02:38:32.153Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
 2020-09-26T02:38:35.521Z - info: Rendering request 98 finished in 5090 ms
+2020-09-26T03:00:06.980Z - info: fs store is loading data
+2020-09-26T03:00:07.987Z - info: Starting rendering request 99 (user: null)
+2020-09-26T03:00:08.018Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T03:00:12.840Z - info: Rendering request 99 finished in 4869 ms
+2020-09-26T03:00:32.397Z - info: Starting rendering request 100 (user: null)
+2020-09-26T03:00:32.398Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T03:00:35.181Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T03:00:40.801Z - info: Rendering request 100 finished in 8405 ms
+2020-09-26T03:01:30.650Z - info: fs store is loading data
+2020-09-26T03:01:31.109Z - info: Starting rendering request 101 (user: null)
+2020-09-26T03:01:31.118Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T03:01:33.931Z - info: fs store is loading data
+2020-09-26T03:01:34.479Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T03:01:38.278Z - info: Rendering request 101 finished in 7169 ms
+2020-09-26T03:02:38.520Z - info: Starting rendering request 102 (user: null)
+2020-09-26T03:02:38.521Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-26T03:02:40.159Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-26T03:02:43.386Z - info: Rendering request 102 finished in 4867 ms
+2020-09-26T03:04:27.351Z - info: fs store is loading data
+2020-09-26T03:04:31.518Z - info: fs store is loading data
