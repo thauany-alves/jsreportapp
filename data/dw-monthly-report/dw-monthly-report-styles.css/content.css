@@ -44,7 +44,7 @@ html {
 
 /* Page Header */
 .reporting-page-content {
-  margin: 20px;
+  margin: 20px 30px;
 }
 
 .reporting-page-content_page_0 {
@@ -125,6 +125,7 @@ html {
 .reporting-page-header-logo {
   width: 127px;
   height: 35px;
+  /* margin-right: 25px; */
 }
 
 /* Articles */
@@ -256,6 +257,11 @@ html {
 .report-section-group-cards-row {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.report-section-group-cards-row > .report-card:nth-child(2) {
+  margin-right: 0%;
 }
 
 .report-section-group-cards-col {
@@ -268,7 +274,7 @@ html {
 /* Footers */
 /* -------------------------------------- */
 .reporting-footer {
-  margin-bottom: 15px;
+  padding: 0 20px 15px 0;
   position: absolute;
   bottom: 0;
 
