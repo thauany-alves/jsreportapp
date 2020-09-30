@@ -3494,3 +3494,6 @@ TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/trou
 2020-09-30T01:03:12.597Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
 2020-09-30T01:03:12.697Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/assets/img-society.svg%20@encoding=dataURI, failure: net::ERR_FILE_NOT_FOUND
 2020-09-30T01:03:14.601Z - info: Rendering request 40 finished in 3693 ms
+2020-09-30T01:08:53.318Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-09-30T01:08:53.322Z - info: Searching for available extensions in D:\PROJETOS\jsreportapp\
+2020-09-30T01:08:53.354Z - info: Extensions location cache contains up to date information, skipping crawling in D:\PROJETOS\jsreportapp\
