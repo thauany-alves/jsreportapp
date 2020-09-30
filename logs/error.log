@@ -312,3 +312,124 @@ TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/trou
 2020-09-26T02:38:16.336Z - error: Error when processing render request 97 Asset ./assets/images/img-compromised-email-credentials.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-compromised-email-credentials.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-compromised-email-credentials.svg' Error: Asset ./assets/images/img-compromised-email-credentials.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-compromised-email-credentials.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-compromised-email-credentials.svg'
     at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
 2020-09-26T02:38:16.380Z - error: Error during processing request at http://localhost:8001/api/report/report-ui-main
+2020-09-30T00:16:52.573Z - error: Rendering request 1 finished with error in 4521 ms
+2020-09-30T00:16:52.621Z - error: Error when processing render request 1 Failed to launch chrome!
+[0929/211651.894:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFABB441252+16183762]
+	ovly_debug_event [0x00007FFABB440832+16181170]
+	ovly_debug_event [0x00007FFABB453383+16257795]
+	ovly_debug_event [0x00007FFABB443386+16192262]
+	ovly_debug_event [0x00007FFABAF94B2E+11283118]
+	ovly_debug_event [0x00007FFABB3BDB58+15645400]
+	ovly_debug_event [0x00007FFABB3BDACD+15645261]
+	ovly_debug_event [0x00007FFABB3E8F28+15822504]
+	ovly_debug_event [0x00007FFABB3BD35E+15643358]
+	ovly_debug_event [0x00007FFABB3E83E3+15819619]
+	ovly_debug_event [0x00007FFABB3E82BB+15819323]
+	ovly_debug_event [0x00007FFABB3E80F2+15818866]
+	ChromeMain [0x00007FFABA4D11B6+286]
+	Ordinal0 [0x00007FF7AAA1275F+10079]
+	Ordinal0 [0x00007FF7AAA1182D+6189]
+	GetHandleVerifier [0x00007FF7AAB1B7C2+697538]
+	BaseThreadInitThunk [0x00007FFB2BA76FD4+20]
+	RtlUserThreadStart [0x00007FFB2C5FCEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+ Error: Failed to launch chrome!
+[0929/211651.894:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFABB441252+16183762]
+	ovly_debug_event [0x00007FFABB440832+16181170]
+	ovly_debug_event [0x00007FFABB453383+16257795]
+	ovly_debug_event [0x00007FFABB443386+16192262]
+	ovly_debug_event [0x00007FFABAF94B2E+11283118]
+	ovly_debug_event [0x00007FFABB3BDB58+15645400]
+	ovly_debug_event [0x00007FFABB3BDACD+15645261]
+	ovly_debug_event [0x00007FFABB3E8F28+15822504]
+	ovly_debug_event [0x00007FFABB3BD35E+15643358]
+	ovly_debug_event [0x00007FFABB3E83E3+15819619]
+	ovly_debug_event [0x00007FFABB3E82BB+15819323]
+	ovly_debug_event [0x00007FFABB3E80F2+15818866]
+	ChromeMain [0x00007FFABA4D11B6+286]
+	Ordinal0 [0x00007FF7AAA1275F+10079]
+	Ordinal0 [0x00007FF7AAA1182D+6189]
+	GetHandleVerifier [0x00007FF7AAB1B7C2+697538]
+	BaseThreadInitThunk [0x00007FFB2BA76FD4+20]
+	RtlUserThreadStart [0x00007FFB2C5FCEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+
+    at onClose (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:348:14)
+    at ChildProcess.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:338:60)
+    at ChildProcess.emit (events.js:327:22)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+2020-09-30T00:16:52.625Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:40:55.401Z - error: Rendering request 13 finished with error in 26 ms
+2020-09-30T00:40:55.406Z - error: Error when processing render request 13 Asset ../../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png' Error: Asset ../../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:40:55.408Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:41:00.696Z - error: Rendering request 14 finished with error in 34 ms
+2020-09-30T00:41:00.703Z - error: Error when processing render request 14 Asset ../../../assets/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\img-your-logo-here.png' Error: Asset ../../../assets/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:41:00.705Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:45:22.340Z - error: Rendering request 18 finished with error in 19 ms
+2020-09-30T00:45:22.343Z - error: Error when processing render request 18 Asset ./assets/images/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg' Error: Asset ./assets/images/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:45:22.345Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:45:30.206Z - error: Rendering request 19 finished with error in 26 ms
+2020-09-30T00:45:30.208Z - error: Error when processing render request 19 Asset ./assets/images/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg' Error: Asset ./assets/images/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:45:30.210Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:45:38.302Z - error: Rendering request 20 finished with error in 23 ms
+2020-09-30T00:45:38.304Z - error: Error when processing render request 20 Asset ./assets/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-monitor.svg' Error: Asset ./assets/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-monitor.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:45:38.306Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:54:51.599Z - error: Rendering request 26 finished with error in 40 ms
+2020-09-30T00:54:51.602Z - error: Error when processing render request 26 Asset ./assets/images/img-adult-industry.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-adult-industry.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-adult-industry.svg' Error: Asset ./assets/images/img-adult-industry.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-adult-industry.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-adult-industry.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:54:51.606Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:59:13.104Z - error: Rendering request 28 finished with error in 33 ms
+2020-09-30T00:59:13.108Z - error: Error when processing render request 28 Asset ./assets/img-business.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-business.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-business.svg' Error: Asset ./assets/img-business.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-business.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-business.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:59:13.109Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:59:27.562Z - error: Rendering request 29 finished with error in 42 ms
+2020-09-30T00:59:27.569Z - error: Error when processing render request 29 Asset ./assets/img-educational.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-educational.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-educational.svg' Error: Asset ./assets/img-educational.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-educational.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-educational.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:59:27.572Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:59:27.693Z - error: Rendering request 30 finished with error in 94 ms
+2020-09-30T00:59:27.702Z - error: Error when processing render request 30 Asset ./assets/img-educational.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-educational.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-educational.svg' Error: Asset ./assets/img-educational.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-educational.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-educational.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:59:27.704Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:59:38.806Z - error: Rendering request 31 finished with error in 41 ms
+2020-09-30T00:59:38.808Z - error: Error when processing render request 31 Asset ./assets/img-forums.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-forums.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-forums.svg' Error: Asset ./assets/img-forums.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-forums.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-forums.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:59:38.809Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:59:54.158Z - error: Rendering request 32 finished with error in 29 ms
+2020-09-30T00:59:54.161Z - error: Error when processing render request 32 Asset ./assets/img-games.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-games.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-games.svg' Error: Asset ./assets/img-games.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-games.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-games.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:59:54.163Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T01:00:08.107Z - error: Rendering request 33 finished with error in 34 ms
+2020-09-30T01:00:08.111Z - error: Error when processing render request 33 Asset ./assets/img-not-available.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-not-available.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-not-available.svg' Error: Asset ./assets/img-not-available.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-not-available.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-not-available.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T01:00:08.113Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T01:00:24.221Z - error: Rendering request 34 finished with error in 27 ms
+2020-09-30T01:00:24.223Z - error: Error when processing render request 34 Asset ./assets/img-personals.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-personals.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-personals.svg' Error: Asset ./assets/img-personals.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-personals.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-personals.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T01:00:24.225Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T01:00:38.877Z - error: Rendering request 35 finished with error in 43 ms
+2020-09-30T01:00:38.882Z - error: Error when processing render request 35 Asset ./assets/images/img-shopping.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg' Error: Asset ./assets/images/img-shopping.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T01:00:38.884Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T01:00:54.158Z - error: Rendering request 36 finished with error in 34 ms
+2020-09-30T01:00:54.160Z - error: Error when processing render request 36 Asset ./assets/images/img-shopping.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg' Error: Asset ./assets/images/img-shopping.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T01:00:54.162Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T01:01:11.039Z - error: Rendering request 37 finished with error in 34 ms
+2020-09-30T01:01:11.041Z - error: Error when processing render request 37 Asset ./assets/img-society.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-society.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-society.svg' Error: Asset ./assets/img-society.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-society.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-society.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T01:01:11.043Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main

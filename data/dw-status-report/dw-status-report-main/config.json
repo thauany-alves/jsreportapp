@@ -1,0 +1,17 @@
+{
+    "shortid": "ZDHwZAnkes",
+    "name": "dw-status-report-main",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1601424888601
+    },
+    "modificationDate": {
+        "$$date": 1601427789380
+    },
+    "_id": "Xi7I5qYE8dZYjQxv",
+    "$entitySet": "templates"
+}

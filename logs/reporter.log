@@ -3148,3 +3148,349 @@ TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/trou
 2020-09-26T03:02:43.386Z - info: Rendering request 102 finished in 4867 ms
 2020-09-26T03:04:27.351Z - info: fs store is loading data
 2020-09-26T03:04:31.518Z - info: fs store is loading data
+2020-09-30T00:10:13.758Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-09-30T00:10:13.763Z - info: Searching for available extensions in D:\PROJETOS\jsreportapp\
+2020-09-30T00:10:13.779Z - info: Extensions location cache not found, crawling directories
+2020-09-30T00:10:43.532Z - info: Found 35 extensions
+2020-09-30T00:10:45.650Z - info: Setting http-server strategy for rendering
+2020-09-30T00:10:46.261Z - info: Using extension cli@2.2.5
+2020-09-30T00:10:46.331Z - info: Using extension debug@2.1.3
+2020-09-30T00:10:46.346Z - info: Using extension express@2.8.0
+2020-09-30T00:10:48.370Z - info: Using extension freeze@2.0.0
+2020-09-30T00:10:48.383Z - info: Using extension handlebars@2.1.0
+2020-09-30T00:10:48.409Z - info: Using extension import-export@2.1.0
+2020-09-30T00:10:48.883Z - info: Using extension jsrender@2.1.1
+2020-09-30T00:10:48.888Z - info: Using extension tags@2.5.0
+2020-09-30T00:10:48.904Z - info: Using extension templates@2.4.0
+2020-09-30T00:10:48.916Z - info: Using extension authorization@2.4.0
+2020-09-30T00:10:48.968Z - info: Using extension base@2.0.2
+2020-09-30T00:10:48.974Z - info: Using extension browser-client@2.2.2
+2020-09-30T00:10:49.002Z - info: Using extension child-templates@1.4.0
+2020-09-30T00:10:49.053Z - info: Using extension chrome-pdf@1.9.0
+2020-09-30T00:10:49.982Z - info: Using extension data@2.4.0
+2020-09-30T00:10:49.999Z - info: Using extension docx@2.8.0
+2020-09-30T00:10:50.015Z - info: Using extension fs-store@2.9.0
+2020-09-30T00:10:51.733Z - info: Using extension licensing@2.2.3
+2020-09-30T00:10:51.782Z - info: Using extension pdf-utils@1.9.0
+2020-09-30T00:10:52.895Z - info: Using extension pptx@0.7.0
+2020-09-30T00:10:52.938Z - info: Using extension reports@2.5.0
+2020-09-30T00:10:53.007Z - info: Using extension static-pdf@0.4.0
+2020-09-30T00:10:53.052Z - info: Using extension studio@2.10.1
+2020-09-30T00:10:53.450Z - info: Using extension text@2.0.0
+2020-09-30T00:10:53.454Z - info: Using extension version-control@1.5.1
+2020-09-30T00:10:54.155Z - info: Using extension assets@1.7.0
+2020-09-30T00:10:54.256Z - info: Using extension html-to-xlsx@2.8.0
+2020-09-30T00:10:58.458Z - info: html-to-xlsx detected chrome as available html engine
+2020-09-30T00:10:58.460Z - info: Using extension scheduling@2.5.0
+2020-09-30T00:10:58.943Z - info: Using extension scripts@2.6.0
+2020-09-30T00:10:58.964Z - info: Using extension studio-theme-dark@0.3.0
+2020-09-30T00:10:58.972Z - info: Using extension xlsx@2.5.0
+2020-09-30T00:11:00.649Z - info: Using extension public-templates@2.2.0
+2020-09-30T00:11:00.662Z - info: Using extension resources@2.1.0
+2020-09-30T00:11:00.669Z - info: Using extension sample-template@2.6.0
+2020-09-30T00:11:00.677Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-09-30T00:11:00.679Z - info: Using fs provider for template store.
+2020-09-30T00:11:00.693Z - info: fs store is persisting using fs
+2020-09-30T00:11:00.698Z - info: fs store is synchronizing using fs
+2020-09-30T00:11:00.714Z - info: fs store is loading data
+2020-09-30T00:11:00.984Z - info: fs store is initialized successfully
+2020-09-30T00:11:01.016Z - info: Creating default express app.
+2020-09-30T00:11:01.466Z - info: jsreport server successfully started on http port: 8001
+2020-09-30T00:11:01.470Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-09-30T00:11:01.673Z - info: Verifying license key free
+2020-09-30T00:11:01.684Z - info: Using free license
+2020-09-30T00:11:01.699Z - info: reporter initialized
+2020-09-30T00:16:47.090Z - info: fs store is loading data
+2020-09-30T00:16:48.047Z - info: Starting rendering request 1 (user: null)
+2020-09-30T00:16:48.056Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:16:52.572Z - error: Rendering request 1 finished with error in 4521 ms
+2020-09-30T00:16:52.621Z - error: Error when processing render request 1 Failed to launch chrome!
+[0929/211651.894:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFABB441252+16183762]
+	ovly_debug_event [0x00007FFABB440832+16181170]
+	ovly_debug_event [0x00007FFABB453383+16257795]
+	ovly_debug_event [0x00007FFABB443386+16192262]
+	ovly_debug_event [0x00007FFABAF94B2E+11283118]
+	ovly_debug_event [0x00007FFABB3BDB58+15645400]
+	ovly_debug_event [0x00007FFABB3BDACD+15645261]
+	ovly_debug_event [0x00007FFABB3E8F28+15822504]
+	ovly_debug_event [0x00007FFABB3BD35E+15643358]
+	ovly_debug_event [0x00007FFABB3E83E3+15819619]
+	ovly_debug_event [0x00007FFABB3E82BB+15819323]
+	ovly_debug_event [0x00007FFABB3E80F2+15818866]
+	ChromeMain [0x00007FFABA4D11B6+286]
+	Ordinal0 [0x00007FF7AAA1275F+10079]
+	Ordinal0 [0x00007FF7AAA1182D+6189]
+	GetHandleVerifier [0x00007FF7AAB1B7C2+697538]
+	BaseThreadInitThunk [0x00007FFB2BA76FD4+20]
+	RtlUserThreadStart [0x00007FFB2C5FCEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+ Error: Failed to launch chrome!
+[0929/211651.894:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFABB441252+16183762]
+	ovly_debug_event [0x00007FFABB440832+16181170]
+	ovly_debug_event [0x00007FFABB453383+16257795]
+	ovly_debug_event [0x00007FFABB443386+16192262]
+	ovly_debug_event [0x00007FFABAF94B2E+11283118]
+	ovly_debug_event [0x00007FFABB3BDB58+15645400]
+	ovly_debug_event [0x00007FFABB3BDACD+15645261]
+	ovly_debug_event [0x00007FFABB3E8F28+15822504]
+	ovly_debug_event [0x00007FFABB3BD35E+15643358]
+	ovly_debug_event [0x00007FFABB3E83E3+15819619]
+	ovly_debug_event [0x00007FFABB3E82BB+15819323]
+	ovly_debug_event [0x00007FFABB3E80F2+15818866]
+	ChromeMain [0x00007FFABA4D11B6+286]
+	Ordinal0 [0x00007FF7AAA1275F+10079]
+	Ordinal0 [0x00007FF7AAA1182D+6189]
+	GetHandleVerifier [0x00007FF7AAB1B7C2+697538]
+	BaseThreadInitThunk [0x00007FFB2BA76FD4+20]
+	RtlUserThreadStart [0x00007FFB2C5FCEC1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+
+    at onClose (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:348:14)
+    at ChildProcess.<anonymous> (D:\PROJETOS\jsreportapp\node_modules\puppeteer\lib\Launcher.js:338:60)
+    at ChildProcess.emit (events.js:327:22)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+2020-09-30T00:16:52.625Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:16:58.870Z - info: fs store is loading data
+2020-09-30T00:16:59.257Z - info: Starting rendering request 2 (user: null)
+2020-09-30T00:16:59.261Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:17:06.691Z - info: Rendering request 2 finished in 7433 ms
+2020-09-30T00:17:30.424Z - info: fs store is loading data
+2020-09-30T00:17:31.096Z - info: Starting rendering request 3 (user: null)
+2020-09-30T00:17:31.118Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:17:35.315Z - info: Rendering request 3 finished in 4261 ms
+2020-09-30T00:18:10.835Z - info: fs store is loading data
+2020-09-30T00:18:11.591Z - info: Starting rendering request 4 (user: null)
+2020-09-30T00:18:11.595Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:18:14.011Z - info: Rendering request 4 finished in 2424 ms
+2020-09-30T00:18:41.101Z - info: fs store is loading data
+2020-09-30T00:18:41.568Z - info: Starting rendering request 5 (user: null)
+2020-09-30T00:18:41.571Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:18:43.870Z - info: Rendering request 5 finished in 2302 ms
+2020-09-30T00:19:02.850Z - info: fs store is loading data
+2020-09-30T00:19:03.269Z - info: Starting rendering request 6 (user: null)
+2020-09-30T00:19:03.297Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:19:05.956Z - info: Rendering request 6 finished in 2688 ms
+2020-09-30T00:19:18.705Z - info: fs store is loading data
+2020-09-30T00:19:19.119Z - info: Starting rendering request 7 (user: null)
+2020-09-30T00:19:19.125Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:19:23.740Z - info: Rendering request 7 finished in 4621 ms
+2020-09-30T00:19:30.119Z - info: fs store is loading data
+2020-09-30T00:19:30.674Z - info: Starting rendering request 8 (user: null)
+2020-09-30T00:19:30.682Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:19:32.956Z - info: Rendering request 8 finished in 2282 ms
+2020-09-30T00:19:42.085Z - info: fs store is loading data
+2020-09-30T00:19:42.426Z - info: Starting rendering request 9 (user: null)
+2020-09-30T00:19:42.429Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:19:44.380Z - info: Rendering request 9 finished in 1954 ms
+2020-09-30T00:27:12.734Z - info: fs store is loading data
+2020-09-30T00:27:13.036Z - info: Starting rendering request 10 (user: null)
+2020-09-30T00:27:13.039Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:27:14.694Z - info: Rendering request 10 finished in 1658 ms
+2020-09-30T00:37:59.150Z - info: Starting rendering request 11 (user: null)
+2020-09-30T00:37:59.154Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:38:00.618Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:38:00.622Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:38:00.627Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-monitor.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:38:00.631Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:38:01.810Z - info: Rendering request 11 finished in 2657 ms
+2020-09-30T00:38:41.093Z - info: Starting rendering request 12 (user: null)
+2020-09-30T00:38:41.096Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:38:42.775Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:38:42.778Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:38:42.781Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:38:42.786Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-monitor.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:38:42.789Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:38:46.802Z - info: Rendering request 12 finished in 5709 ms
+2020-09-30T00:40:55.374Z - info: Starting rendering request 13 (user: null)
+2020-09-30T00:40:55.377Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:40:55.401Z - error: Rendering request 13 finished with error in 26 ms
+2020-09-30T00:40:55.406Z - error: Error when processing render request 13 Asset ../../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png' Error: Asset ../../../assets/images/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\images\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\images\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:40:55.408Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:41:00.663Z - info: Starting rendering request 14 (user: null)
+2020-09-30T00:41:00.671Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:41:00.696Z - error: Rendering request 14 finished with error in 34 ms
+2020-09-30T00:41:00.703Z - error: Error when processing render request 14 Asset ../../../assets/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\img-your-logo-here.png' Error: Asset ../../../assets/img-your-logo-here.png not found in the store and also not on the disk: Unable to find or read file D:\assets\img-your-logo-here.png. ENOENT: no such file or directory, open 'D:\assets\img-your-logo-here.png'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:41:00.705Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:41:07.917Z - info: Starting rendering request 15 (user: null)
+2020-09-30T00:41:07.920Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:41:09.603Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:41:09.608Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:41:09.610Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-monitor.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:41:09.613Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:41:11.228Z - info: Rendering request 15 finished in 3311 ms
+2020-09-30T00:43:33.504Z - info: Starting rendering request 16 (user: null)
+2020-09-30T00:43:33.506Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:43:34.841Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:43:34.851Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:43:34.856Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-monitor.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:43:34.861Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:43:36.492Z - info: Rendering request 16 finished in 2988 ms
+2020-09-30T00:43:36.834Z - info: Starting rendering request 17 (user: null)
+2020-09-30T00:43:36.837Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:43:38.831Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:43:38.836Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:43:38.841Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-monitor.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:43:38.847Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:43:40.386Z - info: Rendering request 17 finished in 3553 ms
+2020-09-30T00:45:22.320Z - info: Starting rendering request 18 (user: null)
+2020-09-30T00:45:22.322Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:45:22.340Z - error: Rendering request 18 finished with error in 19 ms
+2020-09-30T00:45:22.343Z - error: Error when processing render request 18 Asset ./assets/images/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg' Error: Asset ./assets/images/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:45:22.345Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:45:30.173Z - info: Starting rendering request 19 (user: null)
+2020-09-30T00:45:30.175Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:45:30.205Z - error: Rendering request 19 finished with error in 26 ms
+2020-09-30T00:45:30.208Z - error: Error when processing render request 19 Asset ./assets/images/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg' Error: Asset ./assets/images/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-monitor.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:45:30.210Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:45:38.284Z - info: Starting rendering request 20 (user: null)
+2020-09-30T00:45:38.287Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:45:38.302Z - error: Rendering request 20 finished with error in 23 ms
+2020-09-30T00:45:38.304Z - error: Error when processing render request 20 Asset ./assets/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-monitor.svg' Error: Asset ./assets/img-monitor.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-monitor.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-monitor.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:45:38.306Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:46:02.447Z - info: Starting rendering request 21 (user: null)
+2020-09-30T00:46:02.450Z - info: Rendering template { name: report-ui-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:46:04.528Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:46:06.443Z - info: Starting rendering request 22 (user: null)
+2020-09-30T00:46:06.445Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:46:07.836Z - info: Rendering request 21 finished in 5389 ms
+2020-09-30T00:46:08.111Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:46:09.585Z - info: Rendering request 22 finished in 3142 ms
+2020-09-30T00:47:34.460Z - info: fs store is loading data
+2020-09-30T00:47:34.821Z - info: Starting rendering request 23 (user: null)
+2020-09-30T00:47:34.824Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:47:36.316Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:47:37.839Z - info: Rendering request 23 finished in 3018 ms
+2020-09-30T00:51:22.841Z - info: Starting rendering request 24 (user: null)
+2020-09-30T00:51:22.851Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:51:24.460Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:51:26.000Z - info: Rendering request 24 finished in 3160 ms
+2020-09-30T00:52:51.849Z - info: Starting rendering request 25 (user: null)
+2020-09-30T00:52:51.853Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:52:53.486Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.489Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.491Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-adult-industry.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.494Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-business.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.496Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-educational.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.498Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-forums.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.507Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-games.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.510Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-not-available.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.513Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-personals.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.515Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-search-engines.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.518Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-shopping.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.521Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-social-networking.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.524Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-society.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:53.527Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-streaming.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:52:55.340Z - info: Rendering request 25 finished in 3492 ms
+2020-09-30T00:54:51.557Z - info: Starting rendering request 26 (user: null)
+2020-09-30T00:54:51.560Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:54:51.599Z - error: Rendering request 26 finished with error in 40 ms
+2020-09-30T00:54:51.602Z - error: Error when processing render request 26 Asset ./assets/images/img-adult-industry.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-adult-industry.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-adult-industry.svg' Error: Asset ./assets/images/img-adult-industry.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-adult-industry.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-adult-industry.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:54:51.605Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:54:56.903Z - info: Starting rendering request 27 (user: null)
+2020-09-30T00:54:56.907Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:54:58.362Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:54:58.366Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-business.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:54:58.369Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-educational.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:54:58.371Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-forums.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:54:58.373Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-games.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:54:58.376Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-not-available.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:54:58.380Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-personals.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:54:58.384Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-search-engines.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:54:58.388Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-shopping.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:54:58.398Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-social-networking.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:54:58.406Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-society.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:54:58.409Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/assets/images/img-streaming.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T00:55:00.434Z - info: Rendering request 27 finished in 3530 ms
+2020-09-30T00:59:13.072Z - info: Starting rendering request 28 (user: null)
+2020-09-30T00:59:13.075Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:59:13.104Z - error: Rendering request 28 finished with error in 33 ms
+2020-09-30T00:59:13.108Z - error: Error when processing render request 28 Asset ./assets/img-business.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-business.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-business.svg' Error: Asset ./assets/img-business.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-business.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-business.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:59:13.109Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:59:27.520Z - info: Starting rendering request 29 (user: null)
+2020-09-30T00:59:27.523Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:59:27.562Z - error: Rendering request 29 finished with error in 42 ms
+2020-09-30T00:59:27.569Z - error: Error when processing render request 29 Asset ./assets/img-educational.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-educational.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-educational.svg' Error: Asset ./assets/img-educational.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-educational.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-educational.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:59:27.572Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:59:27.600Z - info: Starting rendering request 30 (user: null)
+2020-09-30T00:59:27.634Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:59:27.693Z - error: Rendering request 30 finished with error in 94 ms
+2020-09-30T00:59:27.702Z - error: Error when processing render request 30 Asset ./assets/img-educational.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-educational.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-educational.svg' Error: Asset ./assets/img-educational.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-educational.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-educational.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:59:27.704Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:59:38.763Z - info: Starting rendering request 31 (user: null)
+2020-09-30T00:59:38.766Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:59:38.806Z - error: Rendering request 31 finished with error in 41 ms
+2020-09-30T00:59:38.808Z - error: Error when processing render request 31 Asset ./assets/img-forums.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-forums.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-forums.svg' Error: Asset ./assets/img-forums.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-forums.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-forums.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:59:38.809Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T00:59:54.127Z - info: Starting rendering request 32 (user: null)
+2020-09-30T00:59:54.129Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T00:59:54.158Z - error: Rendering request 32 finished with error in 29 ms
+2020-09-30T00:59:54.161Z - error: Error when processing render request 32 Asset ./assets/img-games.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-games.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-games.svg' Error: Asset ./assets/img-games.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-games.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-games.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T00:59:54.163Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T01:00:08.075Z - info: Starting rendering request 33 (user: null)
+2020-09-30T01:00:08.079Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T01:00:08.107Z - error: Rendering request 33 finished with error in 34 ms
+2020-09-30T01:00:08.111Z - error: Error when processing render request 33 Asset ./assets/img-not-available.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-not-available.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-not-available.svg' Error: Asset ./assets/img-not-available.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-not-available.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-not-available.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T01:00:08.113Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T01:00:24.195Z - info: Starting rendering request 34 (user: null)
+2020-09-30T01:00:24.198Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T01:00:24.221Z - error: Rendering request 34 finished with error in 27 ms
+2020-09-30T01:00:24.223Z - error: Error when processing render request 34 Asset ./assets/img-personals.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-personals.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-personals.svg' Error: Asset ./assets/img-personals.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-personals.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-personals.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T01:00:24.225Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T01:00:38.835Z - info: Starting rendering request 35 (user: null)
+2020-09-30T01:00:38.838Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T01:00:38.876Z - error: Rendering request 35 finished with error in 43 ms
+2020-09-30T01:00:38.882Z - error: Error when processing render request 35 Asset ./assets/images/img-shopping.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg' Error: Asset ./assets/images/img-shopping.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T01:00:38.884Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T01:00:54.123Z - info: Starting rendering request 36 (user: null)
+2020-09-30T01:00:54.126Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T01:00:54.157Z - error: Rendering request 36 finished with error in 34 ms
+2020-09-30T01:00:54.160Z - error: Error when processing render request 36 Asset ./assets/images/img-shopping.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg' Error: Asset ./assets/images/img-shopping.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-shopping.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T01:00:54.162Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T01:01:11.004Z - info: Starting rendering request 37 (user: null)
+2020-09-30T01:01:11.011Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T01:01:11.039Z - error: Rendering request 37 finished with error in 34 ms
+2020-09-30T01:01:11.041Z - error: Error when processing render request 37 Asset ./assets/img-society.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-society.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-society.svg' Error: Asset ./assets/img-society.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-society.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-society.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-09-30T01:01:11.043Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-09-30T01:02:00.997Z - info: Starting rendering request 38 (user: null)
+2020-09-30T01:02:01.001Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T01:02:02.801Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T01:02:02.910Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/assets/img-society.svg%20@encoding=dataURI, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T01:02:02.919Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/%7B, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T01:02:05.130Z - info: Rendering request 38 finished in 4134 ms
+2020-09-30T01:02:50.126Z - info: Starting rendering request 39 (user: null)
+2020-09-30T01:02:50.128Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T01:02:51.620Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T01:02:51.709Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/assets/img-society.svg%20@encoding=dataURI, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T01:02:51.718Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/%7B, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T01:02:53.656Z - info: Rendering request 39 finished in 3531 ms
+2020-09-30T01:03:10.908Z - info: Starting rendering request 40 (user: null)
+2020-09-30T01:03:10.910Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-09-30T01:03:12.597Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T01:03:12.697Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/assets/img-society.svg%20@encoding=dataURI, failure: net::ERR_FILE_NOT_FOUND
+2020-09-30T01:03:14.601Z - info: Rendering request 40 finished in 3693 ms
