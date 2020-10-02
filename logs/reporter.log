@@ -3699,3 +3699,344 @@ TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/trou
 2020-09-30T19:52:16.915Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
 2020-09-30T19:52:18.487Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
 2020-09-30T19:52:20.258Z - info: Rendering request 13 finished in 3422 ms
+2020-10-01T15:54:14.662Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-01T15:54:14.667Z - info: Searching for available extensions in D:\PROJETOS\jsreportapp\
+2020-10-01T15:54:14.686Z - info: Extensions location cache not found, crawling directories
+2020-10-01T15:54:41.841Z - info: Found 35 extensions
+2020-10-01T15:54:44.126Z - info: Setting http-server strategy for rendering
+2020-10-01T15:54:44.783Z - info: Using extension cli@2.2.5
+2020-10-01T15:54:44.985Z - info: Using extension debug@2.1.3
+2020-10-01T15:54:45.043Z - info: Using extension express@2.8.0
+2020-10-01T15:54:47.856Z - info: Using extension freeze@2.0.0
+2020-10-01T15:54:47.867Z - info: Using extension handlebars@2.1.0
+2020-10-01T15:54:47.951Z - info: Using extension import-export@2.1.0
+2020-10-01T15:54:48.804Z - info: Using extension jsrender@2.1.1
+2020-10-01T15:54:48.810Z - info: Using extension tags@2.5.0
+2020-10-01T15:54:48.847Z - info: Using extension templates@2.4.0
+2020-10-01T15:54:48.877Z - info: Using extension authorization@2.4.0
+2020-10-01T15:54:48.952Z - info: Using extension base@2.0.2
+2020-10-01T15:54:48.959Z - info: Using extension browser-client@2.2.2
+2020-10-01T15:54:49.005Z - info: Using extension child-templates@1.4.0
+2020-10-01T15:54:49.104Z - info: Using extension chrome-pdf@1.9.0
+2020-10-01T15:54:50.793Z - info: Using extension data@2.4.0
+2020-10-01T15:54:50.809Z - info: Using extension docx@2.8.0
+2020-10-01T15:54:50.849Z - info: Using extension fs-store@2.9.0
+2020-10-01T15:54:52.854Z - info: Using extension licensing@2.2.3
+2020-10-01T15:54:52.882Z - info: Using extension pdf-utils@1.9.0
+2020-10-01T15:54:53.724Z - info: Using extension pptx@0.7.0
+2020-10-01T15:54:53.752Z - info: Using extension reports@2.5.0
+2020-10-01T15:54:53.785Z - info: Using extension static-pdf@0.4.0
+2020-10-01T15:54:53.830Z - info: Using extension studio@2.10.1
+2020-10-01T15:54:54.206Z - info: Using extension text@2.0.0
+2020-10-01T15:54:54.211Z - info: Using extension version-control@1.5.1
+2020-10-01T15:54:55.363Z - info: Using extension assets@1.7.0
+2020-10-01T15:54:55.445Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-01T15:55:00.419Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-01T15:55:00.422Z - info: Using extension scheduling@2.5.0
+2020-10-01T15:55:00.752Z - info: Using extension scripts@2.6.0
+2020-10-01T15:55:00.816Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-01T15:55:00.836Z - info: Using extension xlsx@2.5.0
+2020-10-01T15:55:03.165Z - info: Using extension public-templates@2.2.0
+2020-10-01T15:55:03.179Z - info: Using extension resources@2.1.0
+2020-10-01T15:55:03.196Z - info: Using extension sample-template@2.6.0
+2020-10-01T15:55:03.205Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-01T15:55:03.206Z - info: Using fs provider for template store.
+2020-10-01T15:55:03.220Z - info: fs store is persisting using fs
+2020-10-01T15:55:03.224Z - info: fs store is synchronizing using fs
+2020-10-01T15:55:03.236Z - info: fs store is loading data
+2020-10-01T15:55:04.892Z - info: fs store is initialized successfully
+2020-10-01T15:55:04.936Z - info: Creating default express app.
+2020-10-01T15:55:05.565Z - info: jsreport server successfully started on http port: 8001
+2020-10-01T15:55:05.569Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-10-01T15:55:05.750Z - info: Verifying license key free
+2020-10-01T15:55:05.762Z - info: Using free license
+2020-10-01T15:55:05.773Z - info: reporter initialized
+2020-10-01T15:56:20.296Z - info: Starting rendering request 1 (user: null)
+2020-10-01T15:56:20.330Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-01T15:56:29.078Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-01T15:56:34.884Z - info: Rendering request 1 finished in 14590 ms
+2020-10-01T16:17:46.861Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-01T16:17:46.867Z - info: Searching for available extensions in D:\PROJETOS\jsreportapp\
+2020-10-01T16:17:46.896Z - info: Extensions location cache contains up to date information, skipping crawling in D:\PROJETOS\jsreportapp\
+2020-10-01T16:17:47.116Z - info: Found 35 extensions
+2020-10-01T16:17:47.786Z - info: Setting http-server strategy for rendering
+2020-10-01T16:17:48.305Z - info: Using extension cli@2.2.5
+2020-10-01T16:17:48.318Z - info: Using extension debug@2.1.3
+2020-10-01T16:17:48.324Z - info: Using extension express@2.8.0
+2020-10-01T16:17:48.958Z - info: Using extension freeze@2.0.0
+2020-10-01T16:17:48.964Z - info: Using extension handlebars@2.1.0
+2020-10-01T16:17:48.971Z - info: Using extension import-export@2.1.0
+2020-10-01T16:17:49.096Z - info: Using extension jsrender@2.1.1
+2020-10-01T16:17:49.100Z - info: Using extension tags@2.5.0
+2020-10-01T16:17:49.107Z - info: Using extension templates@2.4.0
+2020-10-01T16:17:49.118Z - info: Using extension authorization@2.4.0
+2020-10-01T16:17:49.130Z - info: Using extension base@2.0.2
+2020-10-01T16:17:49.135Z - info: Using extension browser-client@2.2.2
+2020-10-01T16:17:49.141Z - info: Using extension child-templates@1.4.0
+2020-10-01T16:17:49.153Z - info: Using extension chrome-pdf@1.9.0
+2020-10-01T16:17:49.389Z - info: Using extension data@2.4.0
+2020-10-01T16:17:49.395Z - info: Using extension docx@2.8.0
+2020-10-01T16:17:49.406Z - info: Using extension fs-store@2.9.0
+2020-10-01T16:17:49.868Z - info: Using extension licensing@2.2.3
+2020-10-01T16:17:49.890Z - info: Using extension pdf-utils@1.9.0
+2020-10-01T16:17:50.114Z - info: Using extension pptx@0.7.0
+2020-10-01T16:17:50.127Z - info: Using extension reports@2.5.0
+2020-10-01T16:17:50.137Z - info: Using extension static-pdf@0.4.0
+2020-10-01T16:17:50.146Z - info: Using extension studio@2.10.1
+2020-10-01T16:17:50.295Z - info: Using extension text@2.0.0
+2020-10-01T16:17:50.299Z - info: Using extension version-control@1.5.1
+2020-10-01T16:17:50.587Z - info: Using extension assets@1.7.0
+2020-10-01T16:17:50.630Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-01T16:17:51.734Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-01T16:17:51.736Z - info: Using extension scheduling@2.5.0
+2020-10-01T16:17:51.826Z - info: Using extension scripts@2.6.0
+2020-10-01T16:17:51.838Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-01T16:17:51.846Z - info: Using extension xlsx@2.5.0
+2020-10-01T16:17:52.373Z - info: Using extension public-templates@2.2.0
+2020-10-01T16:17:52.381Z - info: Using extension resources@2.1.0
+2020-10-01T16:17:52.385Z - info: Using extension sample-template@2.6.0
+2020-10-01T16:17:52.392Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-01T16:17:52.393Z - info: Using fs provider for template store.
+2020-10-01T16:17:52.416Z - info: fs store is persisting using fs
+2020-10-01T16:17:52.429Z - info: fs store is synchronizing using fs
+2020-10-01T16:17:52.513Z - info: fs store is loading data
+2020-10-01T16:17:53.002Z - info: fs store is initialized successfully
+2020-10-01T16:17:53.050Z - info: Creating default express app.
+2020-10-01T16:17:53.090Z - info: jsreport server successfully started on http port: 8001
+2020-10-01T16:17:53.095Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-10-01T16:17:53.133Z - info: Verifying license key free
+2020-10-01T16:17:53.141Z - info: Using free license
+2020-10-01T16:17:53.153Z - info: reporter initialized
+2020-10-01T16:19:42.525Z - info: Starting rendering request 1 (user: null)
+2020-10-01T16:19:42.598Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-01T16:19:48.714Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-01T16:19:54.151Z - info: Rendering request 1 finished in 11707 ms
+2020-10-01T16:28:41.266Z - info: Starting rendering request 2 (user: null)
+2020-10-01T16:28:41.269Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-01T16:28:43.445Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-01T16:28:45.820Z - info: Rendering request 2 finished in 4553 ms
+2020-10-02T14:39:26.370Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-02T14:39:26.379Z - info: Searching for available extensions in D:\PROJETOS\jsreportapp\
+2020-10-02T14:39:26.613Z - info: Extensions location cache contains up to date information, skipping crawling in D:\PROJETOS\jsreportapp\
+2020-10-02T14:39:27.504Z - info: Found 35 extensions
+2020-10-02T14:39:32.381Z - info: Setting http-server strategy for rendering
+2020-10-02T14:39:34.210Z - info: Using extension cli@2.2.5
+2020-10-02T14:39:34.260Z - info: Using extension debug@2.1.3
+2020-10-02T14:39:34.288Z - info: Using extension express@2.8.0
+2020-10-02T14:39:37.376Z - info: Using extension freeze@2.0.0
+2020-10-02T14:39:37.428Z - info: Using extension handlebars@2.1.0
+2020-10-02T14:39:37.468Z - info: Using extension import-export@2.1.0
+2020-10-02T14:39:38.688Z - info: Using extension jsrender@2.1.1
+2020-10-02T14:39:38.704Z - info: Using extension tags@2.5.0
+2020-10-02T14:39:38.743Z - info: Using extension templates@2.4.0
+2020-10-02T14:39:38.801Z - info: Using extension authorization@2.4.0
+2020-10-02T14:39:38.898Z - info: Using extension base@2.0.2
+2020-10-02T14:39:38.911Z - info: Using extension browser-client@2.2.2
+2020-10-02T14:39:38.945Z - info: Using extension child-templates@1.4.0
+2020-10-02T14:39:39.015Z - info: Using extension chrome-pdf@1.9.0
+2020-10-02T14:39:40.857Z - info: Using extension data@2.4.0
+2020-10-02T14:39:40.882Z - info: Using extension docx@2.8.0
+2020-10-02T14:39:40.924Z - info: Using extension fs-store@2.9.0
+2020-10-02T14:39:43.618Z - info: Using extension licensing@2.2.3
+2020-10-02T14:39:43.709Z - info: Using extension pdf-utils@1.9.0
+2020-10-02T14:39:45.268Z - info: Using extension pptx@0.7.0
+2020-10-02T14:39:45.303Z - info: Using extension reports@2.5.0
+2020-10-02T14:39:45.362Z - info: Using extension static-pdf@0.4.0
+2020-10-02T14:39:45.441Z - info: Using extension studio@2.10.1
+2020-10-02T14:39:46.202Z - info: Using extension text@2.0.0
+2020-10-02T14:39:46.213Z - info: Using extension version-control@1.5.1
+2020-10-02T14:39:47.598Z - info: Using extension assets@1.7.0
+2020-10-02T14:39:47.733Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-02T14:39:54.326Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-02T14:39:54.333Z - info: Using extension scheduling@2.5.0
+2020-10-02T14:39:54.881Z - info: Using extension scripts@2.6.0
+2020-10-02T14:39:54.908Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-02T14:39:54.925Z - info: Using extension xlsx@2.5.0
+2020-10-02T14:39:58.276Z - info: Using extension public-templates@2.2.0
+2020-10-02T14:39:58.302Z - info: Using extension resources@2.1.0
+2020-10-02T14:39:58.324Z - info: Using extension sample-template@2.6.0
+2020-10-02T14:39:58.345Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-02T14:39:58.349Z - info: Using fs provider for template store.
+2020-10-02T14:39:58.384Z - info: fs store is persisting using fs
+2020-10-02T14:39:58.398Z - info: fs store is synchronizing using fs
+2020-10-02T14:39:58.489Z - info: fs store is loading data
+2020-10-02T14:39:59.657Z - info: fs store is initialized successfully
+2020-10-02T14:39:59.774Z - info: Creating default express app.
+2020-10-02T14:40:00.339Z - info: jsreport server successfully started on http port: 8001
+2020-10-02T14:40:00.345Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-10-02T14:40:00.758Z - info: Verifying license key free
+2020-10-02T14:40:00.785Z - info: Using free license
+2020-10-02T14:40:00.813Z - info: reporter initialized
+2020-10-02T14:41:10.178Z - info: Starting rendering request 1 (user: null)
+2020-10-02T14:41:10.201Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T14:41:21.583Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T14:41:31.549Z - info: Rendering request 1 finished in 21371 ms
+2020-10-02T14:43:38.705Z - info: Starting rendering request 2 (user: null)
+2020-10-02T14:43:38.757Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T14:43:48.867Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T14:43:49.399Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/assets/img-society.svg%20@encoding=dataURI, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T14:43:57.003Z - info: Rendering request 2 finished in 18334 ms
+2020-10-02T14:45:44.155Z - info: Starting rendering request 3 (user: null)
+2020-10-02T14:45:44.166Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T14:45:44.359Z - error: Rendering request 3 finished with error in 190 ms
+2020-10-02T14:45:44.379Z - error: Error when processing render request 3 Asset ./assets/img-society.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-society.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-society.svg' Error: Asset ./assets/img-society.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-society.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-society.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-10-02T14:45:44.400Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-10-02T14:48:50.690Z - info: Starting rendering request 4 (user: null)
+2020-10-02T14:48:50.720Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T14:48:56.598Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T14:49:02.782Z - info: Rendering request 4 finished in 12079 ms
+2020-10-02T14:56:57.409Z - info: Starting rendering request 5 (user: null)
+2020-10-02T14:56:57.421Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T14:57:05.583Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T14:57:06.704Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T14:57:06.739Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T14:57:06.766Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-total-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T14:57:06.784Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-overall-risk.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T14:57:06.802Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T14:57:16.957Z - info: Rendering request 5 finished in 19562 ms
+2020-10-02T15:03:49.284Z - info: Starting rendering request 6 (user: null)
+2020-10-02T15:03:49.331Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:03:57.095Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:03:57.501Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:03:57.527Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:03:57.547Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-total-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:03:57.563Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-overall-risk.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:03:57.585Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:04:02.591Z - info: Rendering request 6 finished in 13597 ms
+2020-10-02T15:04:48.248Z - info: Starting rendering request 7 (user: null)
+2020-10-02T15:04:48.255Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:04:53.813Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:04:54.233Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:04:54.332Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:04:54.341Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-total-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:04:54.347Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-overall-risk.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:04:54.382Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:05:00.048Z - info: Rendering request 7 finished in 11792 ms
+2020-10-02T15:20:56.463Z - info: Starting rendering request 8 (user: null)
+2020-10-02T15:20:56.482Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:21:00.982Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:21:01.267Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-exposed-passwords.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:21:01.281Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-total-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:21:01.292Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-overall-risk.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:21:01.300Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:21:10.686Z - info: Rendering request 8 finished in 14249 ms
+2020-10-02T15:21:51.219Z - info: Starting rendering request 9 (user: null)
+2020-10-02T15:21:51.225Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:21:55.123Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:21:55.422Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-total-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:21:55.429Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-overall-risk.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:21:55.500Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:21:59.606Z - info: Rendering request 9 finished in 8386 ms
+2020-10-02T15:22:54.485Z - info: Starting rendering request 10 (user: null)
+2020-10-02T15:22:54.500Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:22:59.404Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:22:59.701Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-total-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:22:59.709Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-overall-risk.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:22:59.760Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:23:05.710Z - info: Rendering request 10 finished in 11229 ms
+2020-10-02T15:24:29.173Z - info: Starting rendering request 11 (user: null)
+2020-10-02T15:24:29.178Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:24:33.821Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:24:34.142Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-total-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:24:34.154Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-overall-risk.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:24:34.303Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:24:38.425Z - info: Rendering request 11 finished in 9250 ms
+2020-10-02T15:27:36.160Z - info: Starting rendering request 12 (user: null)
+2020-10-02T15:27:36.194Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:27:41.571Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:27:41.869Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-total-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:27:41.880Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-overall-risk.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:27:41.922Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:27:48.154Z - info: Rendering request 12 finished in 11993 ms
+2020-10-02T15:28:58.929Z - info: Starting rendering request 13 (user: null)
+2020-10-02T15:28:58.935Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:29:04.428Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:29:04.740Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-total-data-breaches.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:29:04.751Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-overall-risk.svg, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:29:04.792Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-page-1-graphic.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:29:10.635Z - info: Rendering request 13 finished in 11705 ms
+2020-10-02T15:31:58.282Z - info: Starting rendering request 14 (user: null)
+2020-10-02T15:31:58.288Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:31:58.519Z - error: Rendering request 14 finished with error in 236 ms
+2020-10-02T15:31:58.532Z - error: Error when processing render request 14 Asset ./assets/images/img-total-data-breaches.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-total-data-breaches.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-total-data-breaches.svg' Error: Asset ./assets/images/img-total-data-breaches.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\images\img-total-data-breaches.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\images\img-total-data-breaches.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-10-02T15:31:58.538Z - error: Error during processing request at http://localhost:8001/api/report/dw-status-report-main
+2020-10-02T15:32:21.894Z - info: Starting rendering request 15 (user: null)
+2020-10-02T15:32:21.942Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:32:26.614Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:32:32.701Z - info: Rendering request 15 finished in 10815 ms
+2020-10-02T15:34:29.603Z - info: Starting rendering request 16 (user: null)
+2020-10-02T15:34:29.609Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:34:34.624Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:34:34.942Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:34:37.267Z - info: Starting rendering request 17 (user: null)
+2020-10-02T15:34:37.345Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:34:41.991Z - info: Rendering request 16 finished in 12389 ms
+2020-10-02T15:34:43.196Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:34:43.626Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:34:49.453Z - info: Rendering request 17 finished in 12204 ms
+2020-10-02T15:34:55.491Z - info: Starting rendering request 18 (user: null)
+2020-10-02T15:34:55.495Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:35:01.307Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:35:01.790Z - warn: Page request failed: GET (image) file:///C:/Users/felip/AppData/Local/assets/images/img-your-logo-here.png, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:35:07.992Z - info: Rendering request 18 finished in 12497 ms
+2020-10-02T15:36:39.114Z - info: Starting rendering request 19 (user: null)
+2020-10-02T15:36:39.128Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:36:43.069Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:36:48.749Z - info: Rendering request 19 finished in 9634 ms
+2020-10-02T15:40:38.864Z - info: Starting rendering request 20 (user: null)
+2020-10-02T15:40:38.902Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:40:45.073Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:40:51.983Z - info: Rendering request 20 finished in 13134 ms
+2020-10-02T15:41:22.707Z - info: Starting rendering request 21 (user: null)
+2020-10-02T15:41:22.714Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:41:30.639Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:41:40.442Z - info: Rendering request 21 finished in 17735 ms
+2020-10-02T15:43:54.402Z - info: Starting rendering request 22 (user: null)
+2020-10-02T15:43:54.409Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:44:00.185Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:44:06.241Z - info: Rendering request 22 finished in 11840 ms
+2020-10-02T15:48:36.113Z - info: Starting rendering request 23 (user: null)
+2020-10-02T15:48:36.161Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:48:42.063Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:48:47.644Z - info: Rendering request 23 finished in 11552 ms
+2020-10-02T15:54:49.971Z - info: Starting rendering request 24 (user: null)
+2020-10-02T15:54:49.978Z - info: Rendering template { name: dw-status-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T15:54:56.489Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T15:55:07.764Z - info: Rendering request 24 finished in 17770 ms
+2020-10-02T16:05:15.062Z - info: Starting rendering request 25 (user: null)
+2020-10-02T16:05:15.068Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T16:05:15.249Z - error: Rendering request 25 finished with error in 203 ms
+2020-10-02T16:05:15.254Z - error: Error when processing render request 25 Asset ./assets/img-total-data-breaches.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-total-data-breaches.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-total-data-breaches.svg' Error: Asset ./assets/img-total-data-breaches.svg not found in the store and also not on the disk: Unable to find or read file D:\PROJETOS\jsreportapp\assets\img-total-data-breaches.svg. ENOENT: no such file or directory, open 'D:\PROJETOS\jsreportapp\assets\img-total-data-breaches.svg'
+    at readAsset (D:\PROJETOS\jsreportapp\node_modules\jsreport-assets\lib\assets.js:232:15)
+2020-10-02T16:05:15.261Z - error: Error during processing request at http://localhost:8001/api/report/dw-monthly-report-main
+2020-10-02T16:06:24.980Z - info: Starting rendering request 26 (user: null)
+2020-10-02T16:06:25.048Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T16:06:32.450Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T16:06:39.203Z - info: Rendering request 26 finished in 14226 ms
+2020-10-02T16:08:48.062Z - info: Starting rendering request 27 (user: null)
+2020-10-02T16:08:48.099Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T16:08:55.320Z - info: Rendering request 27 finished in 7259 ms
+2020-10-02T16:09:42.457Z - info: Starting rendering request 28 (user: null)
+2020-10-02T16:09:42.474Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T16:09:49.316Z - info: Rendering request 28 finished in 6881 ms
+2020-10-02T16:10:13.271Z - info: Starting rendering request 29 (user: null)
+2020-10-02T16:10:13.321Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T16:10:21.436Z - info: Rendering request 29 finished in 8168 ms
+2020-10-02T16:10:34.804Z - info: Starting rendering request 30 (user: null)
+2020-10-02T16:10:34.818Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T16:10:39.684Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T16:10:44.522Z - info: Rendering request 30 finished in 9719 ms
+2020-10-02T16:14:41.230Z - info: Starting rendering request 31 (user: null)
+2020-10-02T16:14:41.236Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T16:14:45.534Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T16:14:51.640Z - info: Rendering request 31 finished in 10410 ms
+2020-10-02T16:15:29.686Z - info: Starting rendering request 32 (user: null)
+2020-10-02T16:15:29.732Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T16:15:35.560Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T16:15:42.999Z - info: Rendering request 32 finished in 13313 ms
+2020-10-02T16:16:01.135Z - info: Starting rendering request 33 (user: null)
+2020-10-02T16:16:01.184Z - info: Rendering template { name: dw-monthly-report-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-02T16:16:05.513Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/felip/AppData/Local/Temp/jsreport/autocleanup/url(%22https://fonts.googleapis.com/css2?family=Roboto:wght@300, failure: net::ERR_FILE_NOT_FOUND
+2020-10-02T16:16:14.447Z - info: Rendering request 33 finished in 13312 ms
