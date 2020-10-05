@@ -1,0 +1,138 @@
+{
+    "PCODE": "5s9w4",
+    "breach_month": 8,
+    "breach_year": 2020,
+    "exposed_passwords": 635143,
+    "breaches": 3308867,
+    "exposed_passwords_total" : 4802778,
+    "breaches_total" : 25504867,
+    "client_exposed_passwords" : 188,
+    "client_breaches" : 188,
+    "risk" : "HIGH",
+    "clientName": "Mid-East Ohio Regional Council (MEORC)",
+    "partnerName": "Eagle Consulting Partners",
+    "results": [
+        {
+            "email": "bsmith@rogerbenefit.com",
+            "ess" : 662,
+            "breach_title": "opentable",
+            "import_date": "2020-08-07",
+            "info_exposed": "Email, Password"
+        },
+        {
+            "email": "bsmith@rogerbenefit.com",
+            "ess" : 662,
+            "breach_title": "ExploitIN 800M - Part 70",
+            "import_date": "2020-06-26",
+            "info_exposed": "Email, Password"
+        },
+        {
+            "email": "bsmith@rogerbenefit.com",
+            "ess" : 662,
+            "breach_title": "very large credential dump",
+            "import_date": "2016-08-01",
+            "info_exposed": "Email, Password"
+        },
+        {
+            "email": "bsmith@rogerbenefit.com",
+            "ess" : 662,
+            "breach_title": "LinkedIn credentials dumped",
+            "import_date": "2016-15-19",
+            "info_exposed": "Email, Password"
+        },
+        {
+            "email": "chammett@rogerbenefit.com",
+            "ess" : 662,
+            "breach_title": "2019 Houzz Dump 2.0",
+            "import_date": "2019-10-18",
+            "info_exposed": "Email, Password"
+        }
+    ],
+    "industries" : [
+        {
+            "industry" : "Adult Industry",
+            "breaches" : 5837
+        },
+        {
+            "industry" : "Busines and Economy",
+            "breaches" : 10335
+        },
+        {
+            "industry" : "Educational Institutions",
+            "breaches" : 4758
+        },
+        {
+            "industry" : "Forums",
+            "breaches" : 16677
+        },
+        {
+            "industry" : "Games",
+            "breaches" : 8424
+        },
+        {
+            "industry" : "Not Available",
+            "breaches" : 683807
+        },
+        {
+            "industry" : "Personals and Dating",
+            "breaches" : 85407
+        },
+        {
+            "industry" : "Search Engines and Portals",
+            "breaches" : 5976
+        },
+        {
+            "industry" : "Shopping",
+            "breaches" : 6110
+        },
+        {
+            "industry" : "Social Networking",
+            "breaches" : 23696
+        },
+        {
+            "industry" : "Society and Lifestyles",
+            "breaches" : 73772
+        },
+        {
+            "industry" : "Streaming Media",
+            "breaches" : 4491
+        }
+    ],
+    "breach_trends" : [
+        {
+            "year" : 2020,
+            "month" : 2,
+            "breaches" : 87383
+        },
+        {
+            "year" : 2020,
+            "month" : 3,
+            "breaches" : 1627928
+        },
+        {
+            "year" : 2020,
+            "month" : 4,
+            "breaches" : 877723
+        },
+        {
+            "year" : 2020,
+            "month" : 5,
+            "breaches" : 3555854
+        },
+        {
+            "year" : 2020,
+            "month" : 6,
+            "breaches" : 1437865
+        },
+        {
+            "year" : 2020,
+            "month" : 7,
+            "breaches" : 1951066
+        },
+        {
+            "year" : 2020,
+            "month" : 8,
+            "breaches" : 3307558
+        }
+    ]
+}

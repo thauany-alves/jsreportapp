@@ -10,6 +10,81 @@
   </head>
 
   <body>
+    <section id="report-page-0" class="reporting-page">
+      <div class="reporting-page-content">
+        <header class="reporting-cover-page-header">
+          <img
+            class="reporting-page-header-logo"
+            src="{#asset ./assets/img-your-logo-here.png @encoding=dataURI}"
+            alt="Logo"
+          />
+        </header>
+
+        <main>
+          <article class="reporting-cover-page-title">
+            <div class="reporting-cover-page-info">
+              <div class="reporting-cover-page-title-info">
+                <h1 class="reporting-cover-page-title-name">
+                  Dark Web <br />Monthly Report
+                </h1>
+              </div>
+
+              <div class="reporting-cover-page-client-info">
+                <span class="reporting-cover-page-client-name"
+                  >{{clientName}}</span
+                >
+                <span class="reporting-cover-page-client-date"
+                  >{{getMonthName breach_month}} {{dateNow}}, {{breach_year}}</span
+                >
+              </div>
+            </div>
+
+            <div class="reporting-cover-page-title-image">
+              <img src="{#asset ./assets/img-group-686.svg @encoding=dataURI}" alt="Dark Web Report Cover" />
+            </div>
+          </article>
+
+          <div class="reporting-cover-page-card">
+            <p class="reporting-cover-pager-card-title">
+              - What is the Dark Web?
+            </p>
+            <br />
+            <p class="reporting-cover-pager-card-text">
+              The Dark Web is like the black market for cybercrime. When
+              cybercriminals successfully breach or steal information, here is
+              where they put it up for sale for other criminals to purchase as
+              they wish. Often times, we are unaware if our information is being
+              harvested and resold. As they continue to be profitable, breaches
+              and phishing scams will continue to occur, and employee data could
+              be up for grabs leaving whole organizations vulnerable.
+            </p>
+          </div>
+
+          <div class="reporting-cover-page-card">
+            <p class="reporting-cover-pager-card-title">
+              - Purpose of this Report
+            </p>
+
+            <p class="reporting-cover-pager-card-text">
+              All data, new and old, found on the Dark Web can be used
+              maliciously by cybercriminals. Exposed passwords can provide keys
+              to various sites and services if still in use. Email addresses
+              found can be used for direct phishing campaigns and personal data
+              can be used to build advanced social engineering attacks. We
+              cannot change the past, but we can learn from it, and help change
+              the future.
+            </p>
+          </div>
+        </main>
+
+        <footer class="reporting-footer">
+          <span>{{clientName}}</span>
+          <span>{{getMonthName breach_month}} {{dateNow}}, {{breach_year}}</span>
+          <span>{{partnerName}}</span>
+        </footer>
+      </div>
+    </section>
+
     <section id="report-dw-monthly-page-1" class="reporting-page page-break">
       <div class="reporting-page-content">
         <header class="reporting-page-header">
@@ -33,7 +108,7 @@
         <main>
           <header class="report-page-article-header">
             <h2 class="report-page-article-title">Dark Web Overview</h2>
-            <h3 class="report-page-article-subtitle">Month/Year</h3>
+            <h3 class="report-page-article-subtitle">{{getMonthName breach_month}}/{{breach_year}}</h3>
           </header>
 
           <p class="report-page-article-content">
@@ -64,7 +139,7 @@
                   <div class="report-card-content-info">
                     <div class="report-card-content-info-unit">
                       <span class="report-card-content-info-unit_value"
-                        >125</span
+                        >{{exposed_passwords}}</span
                       >
                       <span class="report-card-content-info-unit_label"
                         >Month/Year</span
@@ -72,7 +147,7 @@
                     </div>
                     <div class="report-card-content-info-unit">
                       <span class="report-card-content-info-unit_value"
-                        >300</span
+                        >{{breaches}}</span
                       >
                       <span class="report-card-content-info-unit_label"
                         >Total-to-date</span
@@ -101,7 +176,7 @@
                   <div class="report-card-content-info">
                     <div class="report-card-content-info-unit">
                       <span class="report-card-content-info-unit_value"
-                        >125</span
+                        >{{exposed_passwords_total}}</span
                       >
                       <span class="report-card-content-info-unit_label"
                         >Month/Year</span
@@ -109,7 +184,7 @@
                     </div>
                     <div class="report-card-content-info-unit">
                       <span class="report-card-content-info-unit_value"
-                        >300</span
+                        >{{breaches_total}}</span
                       >
                       <span class="report-card-content-info-unit_label"
                         >Total-to-date</span
@@ -143,9 +218,9 @@
         </main>
 
         <footer class="reporting-footer">
-          <span>Client Name</span>
-          <span>Date</span>
-          <span>By: Partner Name</span>
+          <span>{{clientName}}</span>
+          <span>{{getMonthName breach_month}} {{dateNow}}, {{breach_year}}</span>
+          <span>{{partnerName}}</span>
         </footer>
       </div>
     </section>
@@ -162,7 +237,7 @@
               <h1 class="reporting-page-header-title">
                 Your Current Dark Web Status 
               </h1>
-              <h3 class="reporting-page-header-dropline">Month/Year</h3>
+              <h3 class="report-page-article-subtitle">{{getMonthName breach_month}}/{{breach_year}}</h3>
             </div>
           </div>
 
@@ -200,7 +275,7 @@
                       <div class="report-card-content-info">
                         <div class="report-card-content-info-unit">
                           <span class="report-card-content-info-unit_value"
-                            >300</span
+                            >{{client_exposed_passwords}}</span
                           >
                           <span class="report-card-content-info-unit_label"
                             >Total-to-date</span
@@ -232,7 +307,7 @@
                       <div class="report-card-content-info">
                         <div class="report-card-content-info-unit">
                           <span class="report-card-content-info-unit_value"
-                            >300</span
+                            >{{client_breaches}}</span
                           >
                           <span class="report-card-content-info-unit_label"
                             >Total-to-date</span
@@ -265,7 +340,7 @@
                         <div class="report-card-content-info-unit">
                           <span
                             class="report-card-content-info-unit_value font-color-alert"
-                            >HIGH</span
+                            >{{risk}}</span
                           >
                         </div>
                       </div>
@@ -313,9 +388,9 @@
         </main>
 
         <footer class="reporting-footer">
-          <span>Client Name</span>
-          <span>Date</span>
-          <span>By: Partner Name</span>
+          <span>{{clientName}}</span>
+          <span>{{getMonthName breach_month}} {{dateNow}}, {{breach_year}}</span>
+          <span>{{partnerName}}</span>
         </footer>
       </div>
     </section>
@@ -332,7 +407,7 @@
               <h1 class="reporting-page-header-title">
                 Top 10 Dark Web Breach Details
               </h1>
-              <h3 class="reporting-page-header-dropline">Month/Year</h3>
+              <h3 class="report-page-article-subtitle">{{getMonthName breach_month}}/{{breach_year}}</h3>
             </div>
           </div>
           <img
@@ -341,7 +416,6 @@
             alt="Logo"
           />
         </header>
-
 
         <main>
           <article class="report-page-article">
@@ -534,7 +608,7 @@
               <h1 class="reporting-page-header-title">
                 Top 10 Dark Web Breach Details
               </h1>
-              <h3 class="reporting-page-header-dropline">Month/Year</h3>
+              <h3 class="report-page-article-subtitle">{{getMonthName breach_month}}/{{breach_year}}</h3>
             </div>
           </div>
           <img
@@ -543,7 +617,6 @@
             alt="Logo"
           />
         </header>
-
 
         <main>
             <div class="table-card">
@@ -740,9 +813,9 @@
         </main>
 
         <footer class="reporting-footer">
-            <span>Client Name</span>
-            <span>Date</span>
-            <span>By: Partner Name</span>
+          <span>{{clientName}}</span>
+          <span>{{getMonthName breach_month}} {{dateNow}}, {{breach_year}}</span>
+          <span>{{partnerName}}</span>
         </footer>
       </div>
     </section>
