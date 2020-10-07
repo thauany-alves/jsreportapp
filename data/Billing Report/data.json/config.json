@@ -1,0 +1,14 @@
+{
+    "name": "data.json",
+    "creationDate": {
+        "$$date": 1602018861206
+    },
+    "modificationDate": {
+        "$$date": 1602022882513
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "rQM0mR0vXlOtsGqO",
+    "shortid": "Ll90Uv3",
+    "$entitySet": "data"
+}

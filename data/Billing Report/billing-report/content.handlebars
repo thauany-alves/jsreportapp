@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css">
+    <script src="https://kit.fontawesome.com/ac543913bd.js" crossorigin="anonymous"></script>    
+    <style>
+        {#asset styles.css @encoding=utf8}
+
+        @font-face {
+          font-family: 'Roboto-Thin';
+          src: url({#asset ./fonts/Roboto/Roboto-Thin.ttf @encoding=dataURI});
+          format('truetype');
+        }
+        @font-face {
+          font-family: 'Roboto-Bold';
+          src: url({#asset fonts/Roboto/Roboto-Bold.ttf @encoding=dataURI});
+          format('truetype');
+        }
+        @font-face {
+          font-family: 'Roboto-Italic';
+          src: url({#asset fonts/Roboto/Roboto-Italic.ttf @encoding=dataURI});
+          format('truetype');
+        }
+        @font-face {
+          font-family: 'Roboto-Light';
+          src: url({#asset fonts/Roboto/Roboto-Light.ttf @encoding=dataURI});
+          format('truetype');
+        }
+       @font-face {
+        font-family: 'Roboto-Medium';
+        src: url({#asset fonts/Roboto/Roboto-Medium.ttf @encoding=dataURI});
+        format('truetype');
+      }
+    </style>
+  </head>
+  <body>
+    <div class="firstPageHeader" style="width: 100%;" >
+      <div class="twoLeftBox">
+        <img src='{#asset images/SecureNowLogo_400px.png @encoding=dataURI}' width="200px" />
+      </div>
+      <div class="twoRightBox">
+      </div>
+      <span class="brmedium"></span>
+      <div class="twoLeftBox">
+        <div class="pageOne-header">{{partnerName}}</div>
+      </div>
+      <div class="twoRightBox">
+          <span id="pageNumber" class="RobotoThin25LB">Billing Report</span><span class="brsmall">{{endDate}}</span>
+      </div>
+    </div>
+
+
+    <table width="100%" id="results">
+      <thead>
+        <tr style="text-align:center;">
+          <th class="Results-Header-Breach cell5">QTY</th>
+          <th class="Results-Header-Breach cell32">Client</th>
+          <th class="Results-Header-Breach cell32">Product</th>
+          <th class="Results-Header-Breach cell15">Date Charged</th>
+          <th class="Results-Header-Breach cell10">Price</th>
+          <th class="Results-Header-Breach cell10">Total</th>
+        </tr>
+      </thead>
+      {{#each results}}
+        <tr class="RobotoLight colorBlack font10">
+          {{{style_text style qty ""}}}
+          {{{style_text style client ""}}}
+          {{{style_text style product ""}}}
+          {{{style_text style dateCharged ""}}}
+          {{{style_text style price "right"}}}
+          {{{style_text style total "right"}}}
+        </tr>
+      {{/each}}
+    </table>
+
+  </body>
+</html>

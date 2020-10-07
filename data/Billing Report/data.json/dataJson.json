@@ -1,0 +1,331 @@
+{
+ 
+        "endDate": "2020-07-01",
+        "partnerName": "BEI",
+        "results": [
+            {
+                "client": "BEI<br>XXXX-XXXX-XXXX-2019",
+                "dateCharged": "2020-07-01",
+                "price": "$79.00",
+                "product": "BSN Partner Subscription",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Rockport Capital",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Association of Academic Health Centers",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Austin-Weston Center for Cosmetic Surgery",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Congregation Beth Emeth",
+                "dateCharged": "2020-07-01",
+                "price": "$30.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Congregation Olam Tikvah",
+                "dateCharged": "2020-07-01",
+                "price": "$25.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Council of Graduate Schools",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Council of Independent Colleges",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Greater Reston Chamber of Commerce",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "IDS International",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "James Bell Associates",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Lehman -Smith + McLeish PLLC",
+                "dateCharged": "2020-07-01",
+                "price": "$35.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Osteogenesis Imperfecta Foundation",
+                "dateCharged": "2020-07-01",
+                "price": "$25.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Trow & Rahal, P.C.",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "NAFSA",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "The CDM Group",
+                "dateCharged": "2020-07-01",
+                "price": "$30.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Chesapeake Potomac Regional Cancer Center ",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Doctors Regional Cancer Center ",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Arthritis and Rheumatism Associates, P.C. ",
+                "dateCharged": "2020-07-01",
+                "price": "$65.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "MedPeds, LLC ",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "GRACE",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "The Leapfrog Group",
+                "dateCharged": "2020-07-01",
+                "price": "$20.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "AMP/RMA",
+                "dateCharged": "2020-07-01",
+                "price": "$35.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Quadrant Economics",
+                "dateCharged": "2020-07-01",
+                "price": "$30.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "IntegrityOne",
+                "dateCharged": "2020-07-01",
+                "price": "$30.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Huey & Associates",
+                "dateCharged": "2020-07-01",
+                "price": "$30.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Capital Edge Consulting",
+                "dateCharged": "2020-07-01",
+                "price": "$30.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Harris Loftus, PLLC",
+                "dateCharged": "2020-07-01",
+                "price": "$25.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Phoenix House of the Mid Atlantic",
+                "dateCharged": "2020-07-01",
+                "price": "$45.00",
+                "product": "Breach Prevention Platform",
+                "qty": 1,
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Total Billed For XXXX-XXXX-XXXX-2019",
+                "dateCharged": "",
+                "price": "",
+                "product": "",
+                "qty": "",
+                "style": "",
+                "total": "$814.00"
+            },
+            {
+                "client": "Payment Details",
+                "dateCharged": "",
+                "price": "",
+                "product": "",
+                "qty": "",
+                "style": "b",
+                "total": ""
+            },
+            {
+                "client": "BEI<br>XXXX-XXXX-XXXX-2019",
+                "dateCharged": "2020-07-01",
+                "price": "-$814.00",
+                "product": "Suki Hovermale - BSN Partner Subscription: Renewal payment",
+                "qty": "1",
+                "style": "",
+                "total": ""
+            },
+            {
+                "client": "Total Payment For XXXX-XXXX-XXXX-2019",
+                "dateCharged": "",
+                "price": "",
+                "product": "BSN Partner Subscription",
+                "qty": "",
+                "style": "",
+                "total": "-$814.00"
+            },
+            {
+                "client": "Other Accounts",
+                "dateCharged": "",
+                "price": "",
+                "product": "",
+                "qty": "",
+                "style": "b",
+                "total": ""
+            },
+            {
+                "client": "Total Amount Billed",
+                "dateCharged": "",
+                "price": "",
+                "product": "",
+                "qty": "",
+                "style": "b",
+                "total": "$814.00"
+            },
+            {
+                "client": "Balance Due",
+                "dateCharged": "",
+                "price": "",
+                "product": "",
+                "qty": "",
+                "style": "b",
+                "total": "$0.00"
+            }
+        ]
+}

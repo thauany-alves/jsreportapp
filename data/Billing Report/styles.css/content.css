@@ -1,0 +1,506 @@
+html, body {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+hr { 
+  display: block; 
+  margin-before: 0.5em; 
+  margin-after: 0.5em; 
+  margin-start: auto; 
+  margin-end: auto; 
+  overflow: hidden; 
+  border-style: inset; 
+  border-width: 1px;
+}
+
+@page {margin: 90px}
+
+.page-break    {page-break-before: always; }
+.page-break2    { display: block; page-break-before: always; }
+
+.br { 
+    display: block; 
+    margin-bottom: 0em; 
+} 
+  
+.brsmall { 
+    display: block; 
+    margin-bottom: -.2em; 
+} 
+  
+.brxsmall { 
+    display: block; 
+    margin-bottom: -.8em; 
+} 
+
+.brxxsmall { 
+    display: block; 
+    margin-bottom: -.9em; 
+} 
+
+.brmedium { 
+    display: block; 
+    margin-bottom: 1em; 
+} 
+  
+.brlarge { 
+    display: block; 
+    margin-bottom: 2em; 
+} 
+
+.tab {
+  margin-left: 10px;
+}
+
+.page-header {
+  font-size: 30px;
+  color: #39699b;
+  font-family: 'Roboto-Thin';
+}
+
+.pageOne-header {
+  font-size: 24px;
+  color: #39699b;
+  font-family: 'Roboto-Thin';
+}
+
+.firstPageHeader {
+  font-size: 25px;
+  color: #39699b;
+  font-family: 'Roboto-Thin';
+}
+
+h2 {
+  font-size: 17px;
+  color: #8a8c8e;
+  font-family: 'Roboto-Bold';
+}
+
+#subheader {
+  font-size: 17px;
+  color: #8a8c8e;
+  font-family: 'Roboto-Bold';
+}
+
+#preparedBy {
+  font-size: 15px;
+  color: #8a8c8e;
+  font-family: 'Roboto-Bold';
+}
+
+#dateRange {
+  font-size: 15px;
+  color: #39699b;
+  font-family: 'Roboto-Bold';
+}
+
+#dateRangeDates {
+  font-size: 15px;
+  color: #fcbb6d;
+  font-family: 'Roboto-Bold';
+}
+
+.RobotoLight15LB {
+  font-size: 15px;
+  color: #39699b;
+  font-family: 'Roboto-Light';
+}
+
+.RobotoBold12LB {
+  font-size: 12px;
+  color: #39699b;
+  font-family: 'Roboto-Bold';
+}
+
+.RobotoLight {
+  font-family: 'Roboto-Light';
+}
+
+.RobotoMedium {
+  font-family: 'Roboto-Medium';
+}
+
+.RobotoBold {
+  font-family: 'Roboto-Bold';
+}
+
+.colorLB {
+  color: #39699b;
+}
+
+.colorBlack {
+  color: #000000;
+}
+
+.colorWhite {
+  color: #ffffff;
+}
+
+.font12 {
+  font-size: 12px!important;
+}
+
+.font10 {
+  font-size: 10px;
+}
+
+.RobotoLight12Grey {
+  font-size: 12px;
+  color: #8a8c8e;
+  font-family: 'Roboto-Light';
+}
+
+.RobotoBold12Grey {
+  font-size: 12px;
+  color: #8a8c8e;
+  font-family: 'Roboto-Bold';
+}
+
+.RobotoBold11Green {
+  font-size: 11px;
+  color:#43a74d;
+  font-family: 'Roboto-Bold'
+}
+
+.RobotoBold11Yellow {
+  font-size: 11px;
+  color:#e9f810;
+  font-family: 'Roboto-Bold'
+}
+
+.RobotoBold11Red {
+  font-size: 11px;
+  color:#cd2231;
+  font-family: 'Roboto-Bold'
+}
+
+.RobotoBold11Black {
+  font-size: 11px;
+  color:#000000;
+  font-family: 'Roboto-Bold'
+}
+
+.RobotoItalic10Grey {
+  font-size: 10px;
+  color: #8a8c8e;
+  font-family: 'Roboto-Italic';
+}
+
+.RobotoMedium8Black {
+  font-size: 8px;
+  color: #000000;
+  font-family: 'Roboto-Medium';
+}
+
+.RobotoMedium8Green {
+  font-size: 8px;
+  color: #43a74d;
+  font-family: 'Roboto-Medium';
+}
+
+.RobotoMedium8Yellow {
+  font-size: 8px;
+  color: #fcbb6d;
+  font-family: 'Roboto-Medium';
+}
+
+.RobotoMedium8Red {
+  font-size: 8px;
+  color: #cd2231;
+  font-family: 'Roboto-Medium';
+}
+
+.RobotoThin25LB {
+    font-size: 25;
+    color: #39699b;
+    font-family: 'Roboto-Thin'
+}
+
+
+#results tr:nth-child(even){background-color: #f2f2f2}
+
+#results th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+#results table {
+  padding-bottom: 50px;
+}
+
+#results td, #results th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.Results-Header-Name {
+  font-size: 10px;
+  color: #ffffff;
+  font-family: 'Roboto-Bold';
+  background: #296a99;
+}
+
+.Results-Header-Email {
+  font-size: 10px;
+  color: #8a8c8e;
+  font-family: 'Roboto-Bold';
+  background: #E0E1E2;
+}
+
+.Results-Header-ESS {
+  font-size: 10px;
+  color: #ffffff;
+  font-family: 'Roboto-Bold';
+  background: #004f7c;
+}
+
+.Results-Header-FailRate {
+  font-size: 10px;
+  color: #ffffff;
+  font-family: 'Roboto-Bold';
+  background: #296a99;
+}
+
+.Results-Header-Result {
+  font-size: 10px;
+  color: #ffffff;
+  font-family: 'Roboto-Bold';
+  background: #FFBB74;
+}
+
+.inside-number {
+  font-size: 15px;
+  color: #000000;
+  font-family: 'Roboto-Bold';
+}
+
+.results-legend {
+  font-size: 12px;
+  color: #39699b;
+  font-family: 'Roboto-Bold';
+  width: 20%;
+}
+
+.full-width {
+  width : 100%;
+}
+
+div {
+  margin: auto;
+}
+
+.legend {
+  width: 20%;
+}
+
+.phishingDetailsTable {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.numberCircleGreen {
+    width:75px;
+    height:75px;
+    border-radius:400px;
+    line-height:50px;
+    text-align:center;
+    background:#ffffff;
+    border: 10px solid #43a74d;
+    margin-top: 10px;
+    
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Roboto-Bold';
+}
+
+.numberCircleOrange {
+    width:75px;
+    height:75px;
+    border-radius:400px;
+    line-height:50px;
+    text-align:center;
+    background:#ffffff;
+    border: 10px solid #FFBB74;
+    margin-top: 10px;
+    
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Roboto-Bold';
+}
+
+.numberCircleGrey {
+    width:75px;
+    height:75px;
+    border-radius:400px;
+    line-height:50px;
+    text-align:center;
+    background:#ffffff;
+    border: 10px solid #8a8c8e;
+    margin-top: 10px;
+    
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Roboto-Bold';
+}
+
+.numberCircleRed {
+    width:75px;
+    height:75px;
+    border-radius:400px;
+    line-height:50px;
+    text-align:center;
+    background:#ffffff;
+    border: 10px solid #cd2231;
+    margin-top: 10px;
+    
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Roboto-Bold';
+}
+
+.numberCirclePurple {
+    width:75px;
+    height:75px;
+    border-radius:400px;
+    line-height:50px;
+    text-align:center;
+    background:#ffffff;
+    border: 10px solid #8d507c;
+    margin-top: 10px;
+    
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Roboto-Bold';
+}
+
+#logo4 img {
+  width: auto;
+  height: 40px;
+  display: block;
+}
+
+.twoLeftBox {
+    float: left;
+    width: 50%;
+    height: 80px;
+    text-align: left;
+}
+
+.twoRightBox {
+    float: right;
+    width: 50%;
+    height: 80px;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.threeBox {
+    float: left;
+    width: 33%;
+    height: 200px;
+    border: 3px solid #d3d3d3;
+    text-align: center;
+    position: relative;
+}
+
+.threeBoxLabels {
+  font-size: 15px;
+  color: #000000;
+  font-family: 'Roboto-Bold';
+  text-align: center!important;
+  display: inline-block;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.riskGauge {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.riskLegend {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  width: 75%;
+}
+
+.fiveBoxes {
+  float: left;
+  width: 33%;
+  height: 20px;
+  line-height: 20px;
+  border: 0px;
+  text-align: center;
+}
+
+.breachesCircleRed {
+    width:95px;
+    height:95px;
+    border-radius:400px;
+    line-height:62px;
+    text-align:center;
+    background:#ffffff;
+    border: 15px solid #F03E3E;
+    margin-top: 10px;
+    
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Roboto-Bold';
+}
+
+.greenBackground {
+  background: #30B32D;
+}
+
+.yellowBackground {
+  background: #FFDD00;
+}
+
+.redBackground {
+  background: #F03E3E;
+}
+
+.Results-Header-Breach {
+  font-size: 10px;
+  color: #000000;
+  font-family: 'Roboto-Bold';
+  background: #E0E1E2;
+  border: 1px #8a8c8e solid;
+}
+
+.cell2px {
+  width: 2px;
+}
+
+.cell1 {
+  width: .5%;
+}
+
+.cell5 {
+  width: 5%;
+}
+
+.cell10 {
+  width: 10%;
+}
+
+.cell15 {
+  width: 15%;
+}
+
+.cell22 {
+  width: 22%;
+}
+
+.cell2 {
+  width: 32%;
+}
+
+.bottomBorder {
+  border-bottom: 2px solid black !important;
+}

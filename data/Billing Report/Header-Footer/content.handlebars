@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <style>
+
+            {#asset header-footer.css @encoding=utf8}
+
+            @font-face {
+            font-family: 'Roboto-Thin';
+            src: url({#asset fonts/Roboto/Roboto-Thin.ttf @encoding=dataURI});
+            format('truetype');
+            }
+            @font-face {
+            font-family: 'Roboto-Bold';
+            src: url({#asset fonts/Roboto/Roboto-Bold.ttf @encoding=dataURI});
+            format('truetype');
+            }
+            @font-face {
+            font-family: 'Roboto-Italic';
+            src: url({#asset fonts/Roboto/Roboto-Italic.ttf @encoding=dataURI});
+            format('truetype');
+            }
+            @font-face {
+            font-family: 'Roboto-Light';
+            src: url({#asset fonts/Roboto/Roboto-Light.ttf @encoding=dataURI});
+            format('truetype');
+            }
+            @font-face {
+                font-family: 'Roboto-Medium';
+                src: url({#asset fonts/Roboto/Roboto-Medium.ttf @encoding=dataURI});
+                format('truetype');
+            } 
+
+
+        </style>
+    </head>
+    <body>
+        {{#each $pdf.pages}}
+            {{#if @index}}
+                <div style="page-break-before: always;"></div>
+            {{/if}}
+            <main class="main"> 
+            <header class="header">
+                <div id="page1Header" style="width: 100%;display: block;">
+                    <div class="threeLeftBox">
+                        <span id="pageNumber" class="RobotoThin25LB">{{getPageNumber @index}}</span>
+                    </div>
+                    <div class="threeMiddleBox">
+                        <span class="RobotoLight11Grey">{{@ root.endDate}} Billing Report</span>
+                    </div>
+                </div>
+
+            </header>
+            <footer class="footer">
+                <div style="width: 100%;">
+                    <div class="threeLeftBox RobotoLight10Grey">{{@ root.partnerName}}</div>
+                    <div class="threeRightBox RobotoLight10Grey">{{@ root.endDate}}</div>
+                </div>
+            </footer>
+          </main>
+          <script>
+            var pageIndex = {{getPageNumber @index}};
+            var page1Header = document.getElementById('page1Header');
+            //var afterPage1Header = document.getElementById('afterPage1');
+            //page1Header.style.display = 'none';
+            //afterPage1Header.style.display = 'none';
+            if (pageIndex == 1) {
+                console.log("page 1 Header");
+                page1Header.style.display = 'none';
+                //afterPage1Header.style.display = 'none';
+            } 
+            // if (pageIndex > 1) {
+            //     console.log("after page 1 Header");
+            //     page1Header.style.display = 'block';
+            //     afterPage1Header.style.display = 'block';
+            // }
+
+            console.log("page Header: " + page1Header.style.display);
+            //console.log("after Header: " + afterPage1Header.style.display);
+
+          </script>
+        {{/each}}
+    </body>
+</html>

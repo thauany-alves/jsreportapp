@@ -1,0 +1,30 @@
+{
+    "shortid": "Bkx0hegK8v",
+    "name": "billing-report",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1602018861192
+    },
+    "modificationDate": {
+        "$$date": 1602019321231
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "f9owWWZGDoSvxUNj",
+    "data": {
+        "shortid": "Ll90Uv3"
+    },
+    "pdfOperations": [
+        {
+            "type": "merge",
+            "templateShortid": "M2O1X~z",
+            "mergeWholeDocument": true,
+            "renderForEveryPage": false
+        }
+    ],
+    "$entitySet": "templates"
+}
